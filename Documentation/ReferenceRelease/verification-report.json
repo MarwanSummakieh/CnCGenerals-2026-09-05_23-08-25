@@ -1,0 +1,756 @@
+{
+    "status": "passed",
+    "startedUtc": "2026-09-07T22:14:35.1155359Z",
+    "finishedUtc": "2026-09-07T22:15:50.6897184Z",
+    "failure": "",
+    "wallSeconds": 75.57418823242188,
+    "startDelaySeconds": 3.0,
+    "platform": "WindowsPlayer",
+    "checks": [
+        {
+            "name": "Rendered standalone verification",
+            "passed": true,
+            "detail": "Run the player with graphics enabled and omit -batchmode/-nographics so screenshots include the actual IMGUI."
+        },
+        {
+            "name": "Controller and runtime initialized",
+            "passed": true,
+            "detail": "GameFlowController.Start created the battlefield and simulation."
+        },
+        {
+            "name": "Full roster assigned",
+            "passed": true,
+            "detail": "52 army definitions with prefab references."
+        },
+        {
+            "name": "Startup opens the main menu",
+            "passed": true,
+            "detail": "MainMenu"
+        },
+        {
+            "name": "Visible offscreen interface capture: 01-main-menu",
+            "passed": true,
+            "detail": "Same OnGUI Repaint draws into the camera target; changed 3708/3710 interface-region samples versus world alone."
+        },
+        {
+            "name": "Settings opens from main menu",
+            "passed": true,
+            "detail": "Existing settings entry point."
+        },
+        {
+            "name": "Settings returns to main menu",
+            "passed": true,
+            "detail": "Return screen preserved."
+        },
+        {
+            "name": "Field manual opens",
+            "passed": true,
+            "detail": "Existing manual entry point."
+        },
+        {
+            "name": "Visible offscreen interface capture: 02-field-manual",
+            "passed": true,
+            "detail": "Same OnGUI Repaint draws into the camera target; changed 3707/3710 interface-region samples versus world alone."
+        },
+        {
+            "name": "Field manual returns to main menu",
+            "passed": true,
+            "detail": "Return screen preserved."
+        },
+        {
+            "name": "Skirmish setup selects Vanguard",
+            "passed": true,
+            "detail": "Vanguard / relaxed difficulty."
+        },
+        {
+            "name": "Visible offscreen interface capture: 03-skirmish-setup",
+            "passed": true,
+            "detail": "Same OnGUI Repaint draws into the camera target; changed 3704/3710 interface-region samples versus world alone."
+        },
+        {
+            "name": "Vanguard deploy reaches the playable match",
+            "passed": true,
+            "detail": "Timeout budget: 8 real seconds."
+        },
+        {
+            "name": "Opposing headquarters deployed",
+            "passed": true,
+            "detail": "Vanguard player versus Dynasty opponent."
+        },
+        {
+            "name": "Starting army contains builder and scout",
+            "passed": true,
+            "detail": "Both playable RTS roles are present."
+        },
+        {
+            "name": "Visible offscreen interface capture: 04-vanguard-match",
+            "passed": true,
+            "detail": "Same OnGUI Repaint draws into the camera target; changed 1256/1400 interface-region samples versus world alone."
+        },
+        {
+            "name": "Pause stops the simulation",
+            "passed": true,
+            "detail": "Paused state and zero timescale."
+        },
+        {
+            "name": "Visible offscreen interface capture: 05-paused",
+            "passed": true,
+            "detail": "Same OnGUI Repaint draws into the camera target; changed 3701/3710 interface-region samples versus world alone."
+        },
+        {
+            "name": "Paused settings returns to pause",
+            "passed": true,
+            "detail": "Match remains paused while browsing settings."
+        },
+        {
+            "name": "Paused manual returns to pause",
+            "passed": true,
+            "detail": "Match remains paused while browsing the field manual."
+        },
+        {
+            "name": "Paused economy and elapsed time stay frozen",
+            "passed": true,
+            "detail": "Elapsed 1.428 -> 1.428; credits 5000 -> 5000."
+        },
+        {
+            "name": "Resume restores play",
+            "passed": true,
+            "detail": "Normal simulation resumes."
+        },
+        {
+            "name": "Resource economy produces actual income",
+            "passed": true,
+            "detail": "Timeout budget: 6 real seconds."
+        },
+        {
+            "name": "Income increases spendable credits",
+            "passed": true,
+            "detail": "5000 -> 5200 credits."
+        },
+        {
+            "name": "Visible offscreen interface capture: 06-concrete-bridge",
+            "passed": true,
+            "detail": "Same OnGUI Repaint draws into the camera target; changed 1264/1400 interface-region samples versus world alone."
+        },
+        {
+            "name": "Ground scout reaches the opposite river bank",
+            "passed": true,
+            "detail": "Scout moved from (-73.00, 0.00, -24.00) to (38.97, -0.02, 5.89); destination (42.00, -0.02, 6.00)."
+        },
+        {
+            "name": "River crossing remains on walkable ground",
+            "passed": true,
+            "detail": "80 actual movement samples, entered river corridor=True, all footprint samples walkable=True."
+        },
+        {
+            "name": "A starting producer offers recruitable units",
+            "passed": true,
+            "detail": "Ranger Deployment Center"
+        },
+        {
+            "name": "Queue accepts an affordable recruit",
+            "passed": true,
+            "detail": "Ghostwire Specialist"
+        },
+        {
+            "name": "Production charges the recruit cost",
+            "passed": true,
+            "detail": "5400 - 450 = 4950."
+        },
+        {
+            "name": "Recruit enters the production queue",
+            "passed": true,
+            "detail": "Real production order present."
+        },
+        {
+            "name": "River construction is rejected without spending",
+            "passed": true,
+            "detail": "Placement refusal: Requires clear grass with space around the building"
+        },
+        {
+            "name": "Worker places a valid foundation",
+            "passed": true,
+            "detail": "(-95.00, -0.04, -66.00)"
+        },
+        {
+            "name": "Construction creates an unfinished foundation",
+            "passed": true,
+            "detail": "Build progress: 0.00"
+        },
+        {
+            "name": "Queued production spawns an actual recruit",
+            "passed": true,
+            "detail": "Timeout budget: 12 real seconds."
+        },
+        {
+            "name": "Completed recruit leaves its production queue",
+            "passed": true,
+            "detail": "The one queued recruit was produced."
+        },
+        {
+            "name": "Recruit deploys through the modeled barracks exit",
+            "passed": true,
+            "detail": "Live production uses the imported exit and deployment lane."
+        },
+        {
+            "name": "Halted recruit safely clears its production doorway",
+            "passed": true,
+            "detail": "Timeout budget: 5 real seconds."
+        },
+        {
+            "name": "Halt during deployment does not restart the rally order",
+            "passed": true,
+            "detail": "The recruit finishes the exit lane and guards there."
+        },
+        {
+            "name": "Worker completes the placed foundation",
+            "passed": true,
+            "detail": "Timeout budget: 15 real seconds."
+        },
+        {
+            "name": "Completed structure has live health",
+            "passed": true,
+            "detail": "Helios Fusion Plant"
+        },
+        {
+            "name": "Visible offscreen interface capture: 07-completed-construction",
+            "passed": true,
+            "detail": "Same OnGUI Repaint draws into the camera target; changed 1119/1400 interface-region samples versus world alone."
+        },
+        {
+            "name": "Combat fixture has opposing scouts",
+            "passed": true,
+            "detail": "Existing player and enemy scouts."
+        },
+        {
+            "name": "Relocated combat fixture enters allied sight",
+            "passed": true,
+            "detail": "Timeout budget: 5 real seconds."
+        },
+        {
+            "name": "Issued attack deals actual weapon damage",
+            "passed": true,
+            "detail": "Live combat and projectile damage."
+        },
+        {
+            "name": "Combat lowers opposing health",
+            "passed": true,
+            "detail": "Enemy scout health 260.0 -> 170.0."
+        },
+        {
+            "name": "Wider ground-unit navigation fixture exists",
+            "passed": true,
+            "detail": "Use the actual deployed tank and its full navigation radius."
+        },
+        {
+            "name": "Tank survives to test crossing at z=-58",
+            "passed": true,
+            "detail": "Each crossing uses a live tank."
+        },
+        {
+            "name": "Tank crosses concrete bridge at z=-58",
+            "passed": true,
+            "detail": "Reached east bank=True; entered river corridor=True; full radius walkable=True; samples=96; radius=1.98."
+        },
+        {
+            "name": "Tank survives to test crossing at z=6",
+            "passed": true,
+            "detail": "Each crossing uses a live tank."
+        },
+        {
+            "name": "Tank crosses concrete bridge at z=6",
+            "passed": true,
+            "detail": "Reached east bank=True; entered river corridor=True; full radius walkable=True; samples=96; radius=1.98."
+        },
+        {
+            "name": "Tank survives to test crossing at z=64",
+            "passed": true,
+            "detail": "Each crossing uses a live tank."
+        },
+        {
+            "name": "Tank crosses concrete bridge at z=64",
+            "passed": true,
+            "detail": "Reached east bank=True; entered river corridor=True; full radius walkable=True; samples=96; radius=1.98."
+        },
+        {
+            "name": "Enemy first assault naturally crosses onto the western bank",
+            "passed": true,
+            "detail": "Observed 10 enemy ground units leaving their actual eastern base; first crossing=Longma Battle Tank at 115.6s; walkable footprints=True; match time 36.3 to 115.7s; extra wall time=13.3s."
+        },
+        {
+            "name": "Enemy headquarters destruction opens victory",
+            "passed": true,
+            "detail": "Timeout budget: 3 real seconds."
+        },
+        {
+            "name": "Victory stops the match",
+            "passed": true,
+            "detail": "Result state freezes simulation."
+        },
+        {
+            "name": "Visible offscreen interface capture: 08-victory",
+            "passed": true,
+            "detail": "Same OnGUI Repaint draws into the camera target; changed 3701/3710 interface-region samples versus world alone."
+        },
+        {
+            "name": "Play again restarts after victory",
+            "passed": true,
+            "detail": "Timeout budget: 8 real seconds."
+        },
+        {
+            "name": "Rematch replaces the old army and headquarters",
+            "passed": true,
+            "detail": "New live headquarters and fresh match timer."
+        },
+        {
+            "name": "Player headquarters destruction opens defeat",
+            "passed": true,
+            "detail": "Timeout budget: 3 real seconds."
+        },
+        {
+            "name": "Defeat stops the match",
+            "passed": true,
+            "detail": "Result state freezes simulation."
+        },
+        {
+            "name": "Visible offscreen interface capture: 09-defeat",
+            "passed": true,
+            "detail": "Same OnGUI Repaint draws into the camera target; changed 3702/3710 interface-region samples versus world alone."
+        },
+        {
+            "name": "Defeat return to menu clears the army",
+            "passed": true,
+            "detail": "No remaining RtsUnit objects, simulation entries, selected units or paused timescale."
+        },
+        {
+            "name": "Dynasty faction deploys successfully",
+            "passed": true,
+            "detail": "Timeout budget: 8 real seconds."
+        },
+        {
+            "name": "Dynasty reverses the faction matchup",
+            "passed": true,
+            "detail": "Dynasty player versus Vanguard opponent."
+        },
+        {
+            "name": "Visible offscreen interface capture: 10-dynasty-match",
+            "passed": true,
+            "detail": "Same OnGUI Repaint draws into the camera target; changed 1214/1400 interface-region samples versus world alone."
+        },
+        {
+            "name": "A running skirmish can restart cleanly",
+            "passed": true,
+            "detail": "Timeout budget: 8 real seconds."
+        },
+        {
+            "name": "Restart preserves faction and resets match state",
+            "passed": true,
+            "detail": "New Dynasty army, fresh timer, empty selection."
+        },
+        {
+            "name": "Starting base has a working power budget",
+            "passed": true,
+            "detail": "Power 30/15."
+        },
+        {
+            "name": "Enemy headquarters begins concealed by fog",
+            "passed": true,
+            "detail": "Sight is shared by allies and hidden enemy objects remain in the simulation."
+        },
+        {
+            "name": "Queue accepts a unit for cancellation",
+            "passed": true,
+            "detail": "Real production API."
+        },
+        {
+            "name": "Cancelling production refunds its full cost",
+            "passed": true,
+            "detail": "Cancelled before production advanced."
+        },
+        {
+            "name": "Invalid production cancellation is harmless",
+            "passed": true,
+            "detail": "No double refund."
+        },
+        {
+            "name": "Reconnaissance reveals the enemy headquarters",
+            "passed": true,
+            "detail": "Move an actual scout into sight range."
+        },
+        {
+            "name": "Lost vision conceals enemy headquarters again",
+            "passed": true,
+            "detail": "Exploration persists but enemy objects are hidden."
+        },
+        {
+            "name": "A visible shell exists before its damage arrives",
+            "passed": true,
+            "detail": "Projectile damage is deferred until impact."
+        },
+        {
+            "name": "Shell impact applies damage and emits effects",
+            "passed": true,
+            "detail": "Timeout budget: 3 real seconds."
+        },
+        {
+            "name": "Combat inspection camera settles",
+            "passed": true,
+            "detail": "Timeout budget: 5 real seconds."
+        },
+        {
+            "name": "Visible offscreen interface capture: 12-combat-fidelity",
+            "passed": true,
+            "detail": "Same OnGUI Repaint draws into the camera target; changed 1298/1400 interface-region samples versus world alone."
+        },
+        {
+            "name": "Confirmed kills award veteran experience",
+            "passed": true,
+            "detail": "Experience comes from a defeated opposing unit."
+        },
+        {
+            "name": "Technology center foundation is accepted",
+            "passed": true,
+            "detail": "(-95.00, -0.04, -66.00)"
+        },
+        {
+            "name": "Technology center completes through worker construction",
+            "passed": true,
+            "detail": "Timeout budget: 18 real seconds."
+        },
+        {
+            "name": "Economy funds the armor upgrade",
+            "passed": true,
+            "detail": "Timeout budget: 8 real seconds."
+        },
+        {
+            "name": "Armor research applies to existing troops",
+            "passed": true,
+            "detail": "Existing troop max health increases by 25%."
+        },
+        {
+            "name": "Research cannot be purchased twice",
+            "passed": true,
+            "detail": "No repeat spending or stacking."
+        },
+        {
+            "name": "Visible offscreen interface capture: 13-research-command",
+            "passed": true,
+            "detail": "Same OnGUI Repaint draws into the camera target; changed 1282/1400 interface-region samples versus world alone."
+        },
+        {
+            "name": "Destroying power causes a real shortage",
+            "passed": true,
+            "detail": "Infrastructure destruction changes the simulated power budget."
+        },
+        {
+            "name": "Research requires a powered base",
+            "passed": true,
+            "detail": "Requires sufficient power"
+        },
+        {
+            "name": "Queue can retain work during power shortage",
+            "passed": true,
+            "detail": "Barracks production is slowed rather than discarded."
+        },
+        {
+            "name": "Low power slows production to thirty percent",
+            "passed": true,
+            "detail": "Progress=0.246; elapsed=0.819."
+        },
+        {
+            "name": "Fresh match for airfield operations",
+            "passed": true,
+            "detail": "Timeout budget: 8 real seconds."
+        },
+        {
+            "name": "Airfield model carries four physical pad anchors",
+            "passed": true,
+            "detail": "Imported Blender attachment points used for actual parking."
+        },
+        {
+            "name": "Supply economy funds four aircraft",
+            "passed": true,
+            "detail": "Timeout budget: 15 real seconds."
+        },
+        {
+            "name": "Queue reserves plane slot 1",
+            "passed": true,
+            "detail": "Queues and live aircraft share four slots."
+        },
+        {
+            "name": "Queue reserves plane slot 2",
+            "passed": true,
+            "detail": "Queues and live aircraft share four slots."
+        },
+        {
+            "name": "Queue reserves plane slot 3",
+            "passed": true,
+            "detail": "Queues and live aircraft share four slots."
+        },
+        {
+            "name": "Queue reserves plane slot 4",
+            "passed": true,
+            "detail": "Queues and live aircraft share four slots."
+        },
+        {
+            "name": "Four queued planes prevent a fifth order",
+            "passed": true,
+            "detail": "Airfield full: four plane slots, including queued aircraft"
+        },
+        {
+            "name": "Cancelling a plane releases its reserved slot",
+            "passed": true,
+            "detail": "Slot reservation refunded with order."
+        },
+        {
+            "name": "Freed plane slot can be queued again",
+            "passed": true,
+            "detail": "Fourth slot re-reserved."
+        },
+        {
+            "name": "Four actual planes finish production at the airfield",
+            "passed": true,
+            "detail": "Timeout budget: 27 real seconds."
+        },
+        {
+            "name": "Four planes occupy distinct physical parking pads",
+            "passed": true,
+            "detail": "Each finished aircraft parks at its own exported model anchor."
+        },
+        {
+            "name": "Airfield inspection camera settles",
+            "passed": true,
+            "detail": "Timeout budget: 5 real seconds."
+        },
+        {
+            "name": "Visible offscreen interface capture: 14-four-plane-airfield",
+            "passed": true,
+            "detail": "Same OnGUI Repaint draws into the camera target; changed 1285/1400 interface-region samples versus world alone."
+        },
+        {
+            "name": "Ordered plane launches from its parking pad",
+            "passed": true,
+            "detail": "Timeout budget: 5 real seconds."
+        },
+        {
+            "name": "Stopping a returning aircraft still allows it to land",
+            "passed": true,
+            "detail": "Timeout budget: 8 real seconds."
+        },
+        {
+            "name": "Partly spent aircraft begins rearming on its pad",
+            "passed": true,
+            "detail": "Timeout budget: 3 real seconds."
+        },
+        {
+            "name": "Advance beyond normal rearming time after airfield destruction",
+            "passed": true,
+            "detail": "Timeout budget: 4 real seconds."
+        },
+        {
+            "name": "Destroyed airfields cannot rearm surviving aircraft",
+            "passed": true,
+            "detail": "No healing or ammunition regeneration without a surviving airfield."
+        },
+        {
+            "name": "Final return to menu clears all runtime units",
+            "passed": true,
+            "detail": "No remaining RtsUnit objects, simulation entries, selected units or paused timescale."
+        },
+        {
+            "name": "Visible offscreen interface capture: 11-returned-main-menu",
+            "passed": true,
+            "detail": "Same OnGUI Repaint draws into the camera target; changed 3706/3710 interface-region samples versus world alone."
+        },
+        {
+            "name": "No runtime errors or exceptions",
+            "passed": true,
+            "detail": ""
+        }
+    ],
+    "screenshots": [
+        {
+            "file": "01-main-menu.png",
+            "screen": "MainMenu",
+            "captureKind": "offscreen world + actual IMGUI",
+            "includesInterface": true,
+            "nonblank": true,
+            "width": 1600,
+            "height": 900,
+            "attempts": 1,
+            "meanBrightness": 0.21468274295330048,
+            "brightnessDeviation": 0.13816781342029572,
+            "litFraction": 0.9962499737739563
+        },
+        {
+            "file": "02-field-manual.png",
+            "screen": "Manual",
+            "captureKind": "offscreen world + actual IMGUI",
+            "includesInterface": true,
+            "nonblank": true,
+            "width": 1600,
+            "height": 900,
+            "attempts": 1,
+            "meanBrightness": 0.09100542217493057,
+            "brightnessDeviation": 0.10776403546333313,
+            "litFraction": 0.9990000128746033
+        },
+        {
+            "file": "03-skirmish-setup.png",
+            "screen": "Setup",
+            "captureKind": "offscreen world + actual IMGUI",
+            "includesInterface": true,
+            "nonblank": true,
+            "width": 1600,
+            "height": 900,
+            "attempts": 1,
+            "meanBrightness": 0.13382788002490998,
+            "brightnessDeviation": 0.11581254005432129,
+            "litFraction": 0.9860000014305115
+        },
+        {
+            "file": "04-vanguard-match.png",
+            "screen": "Playing",
+            "captureKind": "offscreen world + actual IMGUI",
+            "includesInterface": true,
+            "nonblank": true,
+            "width": 1600,
+            "height": 900,
+            "attempts": 1,
+            "meanBrightness": 0.25265640020370486,
+            "brightnessDeviation": 0.16068047285079957,
+            "litFraction": 0.9915000200271606
+        },
+        {
+            "file": "05-paused.png",
+            "screen": "Paused",
+            "captureKind": "offscreen world + actual IMGUI",
+            "includesInterface": true,
+            "nonblank": true,
+            "width": 1600,
+            "height": 900,
+            "attempts": 1,
+            "meanBrightness": 0.07898547500371933,
+            "brightnessDeviation": 0.06903225183486939,
+            "litFraction": 0.9815000295639038
+        },
+        {
+            "file": "06-concrete-bridge.png",
+            "screen": "Playing",
+            "captureKind": "offscreen world + actual IMGUI",
+            "includesInterface": true,
+            "nonblank": true,
+            "width": 1600,
+            "height": 900,
+            "attempts": 1,
+            "meanBrightness": 0.2063143104314804,
+            "brightnessDeviation": 0.15451103448867799,
+            "litFraction": 0.9915000200271606
+        },
+        {
+            "file": "07-completed-construction.png",
+            "screen": "Playing",
+            "captureKind": "offscreen world + actual IMGUI",
+            "includesInterface": true,
+            "nonblank": true,
+            "width": 1600,
+            "height": 900,
+            "attempts": 1,
+            "meanBrightness": 0.25330668687820437,
+            "brightnessDeviation": 0.16267096996307374,
+            "litFraction": 0.9887499809265137
+        },
+        {
+            "file": "08-victory.png",
+            "screen": "Victory",
+            "captureKind": "offscreen world + actual IMGUI",
+            "includesInterface": true,
+            "nonblank": true,
+            "width": 1600,
+            "height": 900,
+            "attempts": 1,
+            "meanBrightness": 0.0877404436469078,
+            "brightnessDeviation": 0.060742318630218509,
+            "litFraction": 0.9815000295639038
+        },
+        {
+            "file": "09-defeat.png",
+            "screen": "Defeat",
+            "captureKind": "offscreen world + actual IMGUI",
+            "includesInterface": true,
+            "nonblank": true,
+            "width": 1600,
+            "height": 900,
+            "attempts": 1,
+            "meanBrightness": 0.07860925793647766,
+            "brightnessDeviation": 0.06713192164897919,
+            "litFraction": 0.9815000295639038
+        },
+        {
+            "file": "10-dynasty-match.png",
+            "screen": "Playing",
+            "captureKind": "offscreen world + actual IMGUI",
+            "includesInterface": true,
+            "nonblank": true,
+            "width": 1600,
+            "height": 900,
+            "attempts": 1,
+            "meanBrightness": 0.2531995475292206,
+            "brightnessDeviation": 0.16255338490009309,
+            "litFraction": 0.9900000095367432
+        },
+        {
+            "file": "12-combat-fidelity.png",
+            "screen": "Playing",
+            "captureKind": "offscreen world + actual IMGUI",
+            "includesInterface": true,
+            "nonblank": true,
+            "width": 1600,
+            "height": 900,
+            "attempts": 1,
+            "meanBrightness": 0.24718689918518067,
+            "brightnessDeviation": 0.16534361243247987,
+            "litFraction": 0.9912499785423279
+        },
+        {
+            "file": "13-research-command.png",
+            "screen": "Playing",
+            "captureKind": "offscreen world + actual IMGUI",
+            "includesInterface": true,
+            "nonblank": true,
+            "width": 1600,
+            "height": 900,
+            "attempts": 1,
+            "meanBrightness": 0.26462796330451968,
+            "brightnessDeviation": 0.16104809939861298,
+            "litFraction": 0.9915000200271606
+        },
+        {
+            "file": "14-four-plane-airfield.png",
+            "screen": "Playing",
+            "captureKind": "offscreen world + actual IMGUI",
+            "includesInterface": true,
+            "nonblank": true,
+            "width": 1600,
+            "height": 900,
+            "attempts": 1,
+            "meanBrightness": 0.25416696071624758,
+            "brightnessDeviation": 0.16036801040172578,
+            "litFraction": 0.9892500042915344
+        },
+        {
+            "file": "11-returned-main-menu.png",
+            "screen": "MainMenu",
+            "captureKind": "offscreen world + actual IMGUI",
+            "includesInterface": true,
+            "nonblank": true,
+            "width": 1600,
+            "height": 900,
+            "attempts": 1,
+            "meanBrightness": 0.21466203033924104,
+            "brightnessDeviation": 0.13836461305618287,
+            "litFraction": 0.9962499737739563
+        }
+    ],
+    "runtimeErrors": []
+}

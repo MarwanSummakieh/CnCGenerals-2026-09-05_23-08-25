@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d88e76237cd2d7429f7b61b8d249e55, type: 3}
+  m_Name: Dynasty_Commando
+  m_EditorClassIdentifier: Assembly-CSharp::NeonFrontier.ArmyDefinition
+  id: Dynasty_Commando
+  displayName: Jade Phantom
+  faction: Dynasty
+  category: Infantry
+  role: Elite disruption / demolition
+  description: A cybernetically enhanced saboteur with an industrial demolition rig.
+    Designed for one decisive breach, with a one-per-army limit.
+  tier: 3
+  cost: 1500
+  health: 400
+  range: 21
+  speed: 4.8
+  strengths:
+  - Production sabotage
+  - Isolated heavy targets
+  weaknesses:
+  - Detection
+  - Concentrated fire
+  prefab: {fileID: 2614436014677445490, guid: e3d52ad67e58b1142adf3f0c6923a32b, type: 3}

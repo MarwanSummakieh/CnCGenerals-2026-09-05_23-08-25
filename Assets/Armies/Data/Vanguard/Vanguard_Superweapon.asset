@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d88e76237cd2d7429f7b61b8d249e55, type: 3}
+  m_Name: Vanguard_Superweapon
+  m_EditorClassIdentifier: Assembly-CSharp::NeonFrontier.ArmyDefinition
+  id: Vanguard_Superweapon
+  displayName: Aurora Orbital Uplink
+  faction: Vanguard
+  category: Structure
+  role: Strategic precision superweapon
+  description: A huge segmented uplink directs a proposed orbital lance after a visible
+    charging timer. Its role is to break late-game stalemates.
+  tier: 3
+  cost: 5000
+  health: 3200
+  range: 120
+  speed: 0
+  strengths:
+  - Strategic target removal
+  - Siege pressure
+  weaknesses:
+  - Long visible charge
+  - Power loss / raids
+  prefab: {fileID: 3510795196264894514, guid: 159f818134a51bf46b9ae545681b837f, type: 3}

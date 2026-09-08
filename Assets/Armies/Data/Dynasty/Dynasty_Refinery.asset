@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d88e76237cd2d7429f7b61b8d249e55, type: 3}
+  m_Name: Dynasty_Refinery
+  m_EditorClassIdentifier: Assembly-CSharp::NeonFrontier.ArmyDefinition
+  id: Dynasty_Refinery
+  displayName: Iron Tributary Depot
+  faction: Dynasty
+  category: Structure
+  role: Resource collection / salvage
+  description: A hard-wearing resource intake complex with gantry cranes and cargo
+    hoppers. Sustains continuous unit production from defended supply lines.
+  tier: 1
+  cost: 1100
+  health: 2800
+  range: 0
+  speed: 0
+  strengths:
+  - Army income
+  - Industrial logistics
+  weaknesses:
+  - Supply-line raids
+  - Expansion pressure
+  prefab: {fileID: 7577479813538425594, guid: ac3027214b2b9bf44b22466a3d70de8c, type: 3}

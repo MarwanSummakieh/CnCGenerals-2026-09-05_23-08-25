@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d88e76237cd2d7429f7b61b8d249e55, type: 3}
+  m_Name: Vanguard_Tech
+  m_EditorClassIdentifier: Assembly-CSharp::NeonFrontier.ArmyDefinition
+  id: Vanguard_Tech
+  displayName: Prism Research Institute
+  faction: Vanguard
+  category: Structure
+  role: Tier-two / tier-three research
+  description: A secure laboratory with optical antennae and a central research core.
+    Unlocks advanced armor, electronic systems, and late-game options.
+  tier: 2
+  cost: 2000
+  health: 2200
+  range: 0
+  speed: 0
+  strengths:
+  - Technology access
+  - Advanced upgrades
+  weaknesses:
+  - High-value raid target
+  - Investment delay
+  prefab: {fileID: 2197527749148861892, guid: b4d54f9e7c9958f4c805de75381eb14b, type: 3}

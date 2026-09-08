@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d88e76237cd2d7429f7b61b8d249e55, type: 3}
+  m_Name: Dynasty_Rocket
+  m_EditorClassIdentifier: Assembly-CSharp::NeonFrontier.ArmyDefinition
+  id: Dynasty_Rocket
+  displayName: Thunder Spear
+  faction: Dynasty
+  category: Infantry
+  role: Heavy rocket infantry
+  description: A reinforced powered frame supports a heavy rocket launcher. Cheap
+    concentrated volleys threaten armor and slow aircraft.
+  tier: 1
+  cost: 300
+  health: 150
+  range: 24
+  speed: 3.5
+  strengths:
+  - Armored pushes
+  - Helicopters
+  weaknesses:
+  - Artillery
+  - Fast anti-infantry
+  prefab: {fileID: 2611421112794451505, guid: ed922e97ad858ed438da0c15a2872505, type: 3}

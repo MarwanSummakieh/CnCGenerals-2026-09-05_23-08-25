@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d88e76237cd2d7429f7b61b8d249e55, type: 3}
+  m_Name: Dynasty_Scout
+  m_EditorClassIdentifier: Assembly-CSharp::NeonFrontier.ArmyDefinition
+  id: Dynasty_Scout
+  displayName: Jackal Recon Buggy
+  faction: Dynasty
+  category: Vehicle
+  role: Rapid scouting / worker raids
+  description: A stripped-down four-wheel recon buggy with a forward gun. Fast and
+    disposable, it pressures distant supply routes.
+  tier: 1
+  cost: 400
+  health: 260
+  range: 16
+  speed: 13
+  strengths:
+  - Worker harassment
+  - Fast scouting
+  weaknesses:
+  - Armored vehicles
+  - Prepared defenses
+  prefab: {fileID: 2913676704562104718, guid: 66eef824900ee5343ab725e47fcae65b, type: 3}

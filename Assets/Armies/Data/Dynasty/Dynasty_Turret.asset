@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d88e76237cd2d7429f7b61b8d249e55, type: 3}
+  m_Name: Dynasty_Turret
+  m_EditorClassIdentifier: Assembly-CSharp::NeonFrontier.ArmyDefinition
+  id: Dynasty_Turret
+  displayName: Ironwall Twin-Rail Bastion
+  faction: Dynasty
+  category: Structure
+  role: Armored ground defense
+  description: Twin rail weapons above a heavy armored bunker guard entrances and
+    industrial approaches. Limited reach requires support against ranged armor.
+  tier: 1
+  cost: 750
+  health: 2200
+  range: 23
+  speed: 0
+  strengths:
+  - Ground approaches
+  - Close chokepoints
+  weaknesses:
+  - Long-range tanks
+  - Aircraft
+  prefab: {fileID: 8988492384866539558, guid: 4b608ab7fbcc2ab42a1e0526fb7bb51a, type: 3}

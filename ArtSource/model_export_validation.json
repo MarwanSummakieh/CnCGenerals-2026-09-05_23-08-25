@@ -1,0 +1,754 @@
+{
+  "asset_count": 52,
+  "errors": [],
+  "assets": [
+    {
+      "name": "Dynasty_APC",
+      "mesh_count": 2,
+      "triangles": 12236,
+      "dimensions_m": [
+        3.49,
+        5.1587,
+        3.174
+      ],
+      "scale_matches_manifest": true,
+      "finite_vertices": true,
+      "explicit_triangles": true,
+      "articulation": [
+        "TurretPivot"
+      ]
+    },
+    {
+      "name": "Dynasty_AntiAir",
+      "mesh_count": 1,
+      "triangles": 17664,
+      "dimensions_m": [
+        3.686,
+        4.7082,
+        3.3465
+      ],
+      "scale_matches_manifest": true,
+      "finite_vertices": true,
+      "explicit_triangles": true,
+      "articulation": []
+    },
+    {
+      "name": "Dynasty_Artillery",
+      "mesh_count": 1,
+      "triangles": 18068,
+      "dimensions_m": [
+        3.686,
+        4.844,
+        3.152
+      ],
+      "scale_matches_manifest": true,
+      "finite_vertices": true,
+      "explicit_triangles": true,
+      "articulation": []
+    },
+    {
+      "name": "Dynasty_Bomber",
+      "mesh_count": 1,
+      "triangles": 45478,
+      "dimensions_m": [
+        11.9694,
+        6.96,
+        2.35
+      ],
+      "scale_matches_manifest": true,
+      "finite_vertices": true,
+      "explicit_triangles": true,
+      "articulation": []
+    },
+    {
+      "name": "Dynasty_Commando",
+      "mesh_count": 1,
+      "triangles": 2544,
+      "dimensions_m": [
+        0.9619,
+        2.1375,
+        2.148
+      ],
+      "scale_matches_manifest": true,
+      "finite_vertices": true,
+      "explicit_triangles": true,
+      "articulation": []
+    },
+    {
+      "name": "Dynasty_Drone",
+      "mesh_count": 1,
+      "triangles": 55982,
+      "dimensions_m": [
+        5.0614,
+        3.4104,
+        1.1515
+      ],
+      "scale_matches_manifest": true,
+      "finite_vertices": true,
+      "explicit_triangles": true,
+      "articulation": []
+    },
+    {
+      "name": "Dynasty_Engineer",
+      "mesh_count": 1,
+      "triangles": 2424,
+      "dimensions_m": [
+        0.9619,
+        1.5784,
+        2.148
+      ],
+      "scale_matches_manifest": true,
+      "finite_vertices": true,
+      "explicit_triangles": true,
+      "articulation": []
+    },
+    {
+      "name": "Dynasty_Fighter",
+      "mesh_count": 1,
+      "triangles": 37710,
+      "dimensions_m": [
+        10.3295,
+        6.96,
+        2.35
+      ],
+      "scale_matches_manifest": true,
+      "finite_vertices": true,
+      "explicit_triangles": true,
+      "articulation": []
+    },
+    {
+      "name": "Dynasty_Heavy",
+      "mesh_count": 2,
+      "triangles": 78180,
+      "dimensions_m": [
+        4.5434,
+        8.4782,
+        3.7371
+      ],
+      "scale_matches_manifest": true,
+      "finite_vertices": true,
+      "explicit_triangles": true,
+      "articulation": [
+        "TurretPivot"
+      ]
+    },
+    {
+      "name": "Dynasty_Helicopter",
+      "mesh_count": 2,
+      "triangles": 42718,
+      "dimensions_m": [
+        9.3525,
+        9.6198,
+        3.44
+      ],
+      "scale_matches_manifest": true,
+      "finite_vertices": true,
+      "explicit_triangles": true,
+      "articulation": [
+        "Rotor"
+      ]
+    },
+    {
+      "name": "Dynasty_Rifle",
+      "mesh_count": 1,
+      "triangles": 2504,
+      "dimensions_m": [
+        0.9619,
+        1.8075,
+        2.148
+      ],
+      "scale_matches_manifest": true,
+      "finite_vertices": true,
+      "explicit_triangles": true,
+      "articulation": []
+    },
+    {
+      "name": "Dynasty_Rocket",
+      "mesh_count": 1,
+      "triangles": 2620,
+      "dimensions_m": [
+        0.991,
+        1.6125,
+        2.148
+      ],
+      "scale_matches_manifest": true,
+      "finite_vertices": true,
+      "explicit_triangles": true,
+      "articulation": []
+    },
+    {
+      "name": "Dynasty_Scout",
+      "mesh_count": 2,
+      "triangles": 8436,
+      "dimensions_m": [
+        2.87,
+        3.4612,
+        2.4802
+      ],
+      "scale_matches_manifest": true,
+      "finite_vertices": true,
+      "explicit_triangles": true,
+      "articulation": [
+        "TurretPivot"
+      ]
+    },
+    {
+      "name": "Dynasty_Support",
+      "mesh_count": 1,
+      "triangles": 10972,
+      "dimensions_m": [
+        3.49,
+        4.8597,
+        3.344
+      ],
+      "scale_matches_manifest": true,
+      "finite_vertices": true,
+      "explicit_triangles": true,
+      "articulation": []
+    },
+    {
+      "name": "Dynasty_Tank",
+      "mesh_count": 2,
+      "triangles": 69956,
+      "dimensions_m": [
+        4.2437,
+        8.0205,
+        3.6271
+      ],
+      "scale_matches_manifest": true,
+      "finite_vertices": true,
+      "explicit_triangles": true,
+      "articulation": [
+        "TurretPivot"
+      ]
+    },
+    {
+      "name": "Dynasty_Worker",
+      "mesh_count": 1,
+      "triangles": 15516,
+      "dimensions_m": [
+        3.366,
+        4.4782,
+        3.3995
+      ],
+      "scale_matches_manifest": true,
+      "finite_vertices": true,
+      "explicit_triangles": true,
+      "articulation": []
+    },
+    {
+      "name": "Vanguard_APC",
+      "mesh_count": 2,
+      "triangles": 12044,
+      "dimensions_m": [
+        3.49,
+        5.1587,
+        3.174
+      ],
+      "scale_matches_manifest": true,
+      "finite_vertices": true,
+      "explicit_triangles": true,
+      "articulation": [
+        "TurretPivot"
+      ]
+    },
+    {
+      "name": "Vanguard_AntiAir",
+      "mesh_count": 1,
+      "triangles": 17664,
+      "dimensions_m": [
+        3.686,
+        4.7082,
+        3.3465
+      ],
+      "scale_matches_manifest": true,
+      "finite_vertices": true,
+      "explicit_triangles": true,
+      "articulation": []
+    },
+    {
+      "name": "Vanguard_Artillery",
+      "mesh_count": 1,
+      "triangles": 17284,
+      "dimensions_m": [
+        3.686,
+        6.248,
+        3.3244
+      ],
+      "scale_matches_manifest": true,
+      "finite_vertices": true,
+      "explicit_triangles": true,
+      "articulation": []
+    },
+    {
+      "name": "Vanguard_Bomber",
+      "mesh_count": 1,
+      "triangles": 45478,
+      "dimensions_m": [
+        11.2995,
+        6.96,
+        2.35
+      ],
+      "scale_matches_manifest": true,
+      "finite_vertices": true,
+      "explicit_triangles": true,
+      "articulation": []
+    },
+    {
+      "name": "Vanguard_Commando",
+      "mesh_count": 1,
+      "triangles": 2544,
+      "dimensions_m": [
+        0.9619,
+        2.1375,
+        2.148
+      ],
+      "scale_matches_manifest": true,
+      "finite_vertices": true,
+      "explicit_triangles": true,
+      "articulation": []
+    },
+    {
+      "name": "Vanguard_Drone",
+      "mesh_count": 1,
+      "triangles": 55982,
+      "dimensions_m": [
+        4.7801,
+        3.4104,
+        1.1515
+      ],
+      "scale_matches_manifest": true,
+      "finite_vertices": true,
+      "explicit_triangles": true,
+      "articulation": []
+    },
+    {
+      "name": "Vanguard_Engineer",
+      "mesh_count": 1,
+      "triangles": 2424,
+      "dimensions_m": [
+        0.9619,
+        1.5784,
+        2.148
+      ],
+      "scale_matches_manifest": true,
+      "finite_vertices": true,
+      "explicit_triangles": true,
+      "articulation": []
+    },
+    {
+      "name": "Vanguard_Fighter",
+      "mesh_count": 1,
+      "triangles": 37710,
+      "dimensions_m": [
+        9.7553,
+        6.96,
+        2.35
+      ],
+      "scale_matches_manifest": true,
+      "finite_vertices": true,
+      "explicit_triangles": true,
+      "articulation": []
+    },
+    {
+      "name": "Vanguard_Heavy",
+      "mesh_count": 2,
+      "triangles": 78180,
+      "dimensions_m": [
+        4.5434,
+        8.4782,
+        3.7371
+      ],
+      "scale_matches_manifest": true,
+      "finite_vertices": true,
+      "explicit_triangles": true,
+      "articulation": [
+        "TurretPivot"
+      ]
+    },
+    {
+      "name": "Vanguard_Helicopter",
+      "mesh_count": 2,
+      "triangles": 42718,
+      "dimensions_m": [
+        9.3525,
+        9.6198,
+        3.44
+      ],
+      "scale_matches_manifest": true,
+      "finite_vertices": true,
+      "explicit_triangles": true,
+      "articulation": [
+        "Rotor"
+      ]
+    },
+    {
+      "name": "Vanguard_Rifle",
+      "mesh_count": 1,
+      "triangles": 2504,
+      "dimensions_m": [
+        0.9619,
+        1.8075,
+        2.148
+      ],
+      "scale_matches_manifest": true,
+      "finite_vertices": true,
+      "explicit_triangles": true,
+      "articulation": []
+    },
+    {
+      "name": "Vanguard_Rocket",
+      "mesh_count": 1,
+      "triangles": 2620,
+      "dimensions_m": [
+        0.991,
+        1.6125,
+        2.148
+      ],
+      "scale_matches_manifest": true,
+      "finite_vertices": true,
+      "explicit_triangles": true,
+      "articulation": []
+    },
+    {
+      "name": "Vanguard_Scout",
+      "mesh_count": 2,
+      "triangles": 8244,
+      "dimensions_m": [
+        2.87,
+        3.4612,
+        2.4802
+      ],
+      "scale_matches_manifest": true,
+      "finite_vertices": true,
+      "explicit_triangles": true,
+      "articulation": [
+        "TurretPivot"
+      ]
+    },
+    {
+      "name": "Vanguard_Support",
+      "mesh_count": 1,
+      "triangles": 10972,
+      "dimensions_m": [
+        3.49,
+        4.8597,
+        3.344
+      ],
+      "scale_matches_manifest": true,
+      "finite_vertices": true,
+      "explicit_triangles": true,
+      "articulation": []
+    },
+    {
+      "name": "Vanguard_Tank",
+      "mesh_count": 2,
+      "triangles": 69956,
+      "dimensions_m": [
+        4.2437,
+        8.0205,
+        3.6271
+      ],
+      "scale_matches_manifest": true,
+      "finite_vertices": true,
+      "explicit_triangles": true,
+      "articulation": [
+        "TurretPivot"
+      ]
+    },
+    {
+      "name": "Vanguard_Worker",
+      "mesh_count": 1,
+      "triangles": 15516,
+      "dimensions_m": [
+        3.366,
+        4.4782,
+        3.3995
+      ],
+      "scale_matches_manifest": true,
+      "finite_vertices": true,
+      "explicit_triangles": true,
+      "articulation": []
+    },
+    {
+      "name": "Vanguard_Command",
+      "mesh_count": 1,
+      "triangles": 11872,
+      "dimensions_m": [
+        11.5,
+        10.0,
+        10.555
+      ],
+      "scale_matches_manifest": true,
+      "finite_vertices": true,
+      "explicit_triangles": true,
+      "articulation": []
+    },
+    {
+      "name": "Vanguard_Power",
+      "mesh_count": 1,
+      "triangles": 9840,
+      "dimensions_m": [
+        10.0,
+        9.0,
+        5.27
+      ],
+      "scale_matches_manifest": true,
+      "finite_vertices": true,
+      "explicit_triangles": true,
+      "articulation": []
+    },
+    {
+      "name": "Vanguard_Refinery",
+      "mesh_count": 1,
+      "triangles": 9588,
+      "dimensions_m": [
+        13.0,
+        11.0,
+        8.15
+      ],
+      "scale_matches_manifest": true,
+      "finite_vertices": true,
+      "explicit_triangles": true,
+      "articulation": []
+    },
+    {
+      "name": "Vanguard_Barracks",
+      "mesh_count": 1,
+      "triangles": 7152,
+      "dimensions_m": [
+        11.4,
+        12.0,
+        7.125
+      ],
+      "scale_matches_manifest": true,
+      "finite_vertices": true,
+      "explicit_triangles": true,
+      "articulation": []
+    },
+    {
+      "name": "Vanguard_Factory",
+      "mesh_count": 1,
+      "triangles": 9724,
+      "dimensions_m": [
+        15.63,
+        18.0,
+        6.725
+      ],
+      "scale_matches_manifest": true,
+      "finite_vertices": true,
+      "explicit_triangles": true,
+      "articulation": []
+    },
+    {
+      "name": "Vanguard_Airfield",
+      "mesh_count": 1,
+      "triangles": 10612,
+      "dimensions_m": [
+        24.0,
+        34.0,
+        7.425
+      ],
+      "scale_matches_manifest": true,
+      "finite_vertices": true,
+      "explicit_triangles": true,
+      "articulation": []
+    },
+    {
+      "name": "Vanguard_Tech",
+      "mesh_count": 1,
+      "triangles": 10012,
+      "dimensions_m": [
+        10.8,
+        10.0,
+        8.98
+      ],
+      "scale_matches_manifest": true,
+      "finite_vertices": true,
+      "explicit_triangles": true,
+      "articulation": []
+    },
+    {
+      "name": "Vanguard_Turret",
+      "mesh_count": 1,
+      "triangles": 5640,
+      "dimensions_m": [
+        7.4,
+        8.01,
+        5.125
+      ],
+      "scale_matches_manifest": true,
+      "finite_vertices": true,
+      "explicit_triangles": true,
+      "articulation": []
+    },
+    {
+      "name": "Vanguard_AirDefense",
+      "mesh_count": 1,
+      "triangles": 6368,
+      "dimensions_m": [
+        7.4,
+        8.065,
+        7.5812
+      ],
+      "scale_matches_manifest": true,
+      "finite_vertices": true,
+      "explicit_triangles": true,
+      "articulation": []
+    },
+    {
+      "name": "Vanguard_Superweapon",
+      "mesh_count": 1,
+      "triangles": 12864,
+      "dimensions_m": [
+        13.0,
+        12.445,
+        9.9
+      ],
+      "scale_matches_manifest": true,
+      "finite_vertices": true,
+      "explicit_triangles": true,
+      "articulation": []
+    },
+    {
+      "name": "Dynasty_Command",
+      "mesh_count": 1,
+      "triangles": 11872,
+      "dimensions_m": [
+        11.5,
+        10.0,
+        10.555
+      ],
+      "scale_matches_manifest": true,
+      "finite_vertices": true,
+      "explicit_triangles": true,
+      "articulation": []
+    },
+    {
+      "name": "Dynasty_Power",
+      "mesh_count": 1,
+      "triangles": 9840,
+      "dimensions_m": [
+        10.0,
+        9.0,
+        5.27
+      ],
+      "scale_matches_manifest": true,
+      "finite_vertices": true,
+      "explicit_triangles": true,
+      "articulation": []
+    },
+    {
+      "name": "Dynasty_Refinery",
+      "mesh_count": 1,
+      "triangles": 9588,
+      "dimensions_m": [
+        13.0,
+        11.0,
+        8.15
+      ],
+      "scale_matches_manifest": true,
+      "finite_vertices": true,
+      "explicit_triangles": true,
+      "articulation": []
+    },
+    {
+      "name": "Dynasty_Barracks",
+      "mesh_count": 1,
+      "triangles": 7152,
+      "dimensions_m": [
+        11.4,
+        12.0,
+        7.125
+      ],
+      "scale_matches_manifest": true,
+      "finite_vertices": true,
+      "explicit_triangles": true,
+      "articulation": []
+    },
+    {
+      "name": "Dynasty_Factory",
+      "mesh_count": 1,
+      "triangles": 9724,
+      "dimensions_m": [
+        15.63,
+        18.0,
+        6.725
+      ],
+      "scale_matches_manifest": true,
+      "finite_vertices": true,
+      "explicit_triangles": true,
+      "articulation": []
+    },
+    {
+      "name": "Dynasty_Airfield",
+      "mesh_count": 1,
+      "triangles": 10612,
+      "dimensions_m": [
+        24.0,
+        34.0,
+        7.425
+      ],
+      "scale_matches_manifest": true,
+      "finite_vertices": true,
+      "explicit_triangles": true,
+      "articulation": []
+    },
+    {
+      "name": "Dynasty_Tech",
+      "mesh_count": 1,
+      "triangles": 10012,
+      "dimensions_m": [
+        10.8,
+        10.0,
+        8.98
+      ],
+      "scale_matches_manifest": true,
+      "finite_vertices": true,
+      "explicit_triangles": true,
+      "articulation": []
+    },
+    {
+      "name": "Dynasty_Turret",
+      "mesh_count": 1,
+      "triangles": 5640,
+      "dimensions_m": [
+        7.4,
+        8.01,
+        5.125
+      ],
+      "scale_matches_manifest": true,
+      "finite_vertices": true,
+      "explicit_triangles": true,
+      "articulation": []
+    },
+    {
+      "name": "Dynasty_AirDefense",
+      "mesh_count": 1,
+      "triangles": 6368,
+      "dimensions_m": [
+        7.4,
+        8.065,
+        7.5812
+      ],
+      "scale_matches_manifest": true,
+      "finite_vertices": true,
+      "explicit_triangles": true,
+      "articulation": []
+    },
+    {
+      "name": "Dynasty_Superweapon",
+      "mesh_count": 1,
+      "triangles": 12864,
+      "dimensions_m": [
+        13.0,
+        12.445,
+        9.9
+      ],
+      "scale_matches_manifest": true,
+      "finite_vertices": true,
+      "explicit_triangles": true,
+      "articulation": []
+    }
+  ]
+}

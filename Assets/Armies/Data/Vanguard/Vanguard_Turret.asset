@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d88e76237cd2d7429f7b61b8d249e55, type: 3}
+  m_Name: Vanguard_Turret
+  m_EditorClassIdentifier: Assembly-CSharp::NeonFrontier.ArmyDefinition
+  id: Vanguard_Turret
+  displayName: Sentry Rail Emplacement
+  faction: Vanguard
+  category: Structure
+  role: Ground defense
+  description: An elevated precision gun protects predictable ground approaches.
+    Overlapping infantry and air defenses cover its specialized firing role.
+  tier: 1
+  cost: 850
+  health: 1600
+  range: 32
+  speed: 0
+  strengths:
+  - Armored approaches
+  - Chokepoints
+  weaknesses:
+  - Artillery
+  - Aircraft
+  prefab: {fileID: 1677337315779288230, guid: cd2b41372c47e614094e6d8102c94296, type: 3}

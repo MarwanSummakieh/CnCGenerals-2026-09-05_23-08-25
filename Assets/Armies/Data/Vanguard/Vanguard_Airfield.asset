@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d88e76237cd2d7429f7b61b8d249e55, type: 3}
+  m_Name: Vanguard_Airfield
+  m_EditorClassIdentifier: Assembly-CSharp::NeonFrontier.ArmyDefinition
+  id: Vanguard_Airfield
+  displayName: Vector Flight Deck
+  faction: Vanguard
+  category: Structure
+  role: Aircraft production / rearming
+  description: A circular luminous VTOL landing pad, control tower, and maintenance
+    apron. Builds and rearms aircraft; advanced bombers require tier-three research.
+  tier: 2
+  cost: 1800
+  health: 2800
+  range: 0
+  speed: 0
+  strengths:
+  - Air projection
+  - Aircraft servicing
+  weaknesses:
+  - Bombardment
+  - Ground raids
+  prefab: {fileID: 4402784264274119962, guid: 0a34310ece5ef8547a67bab32327b24b, type: 3}

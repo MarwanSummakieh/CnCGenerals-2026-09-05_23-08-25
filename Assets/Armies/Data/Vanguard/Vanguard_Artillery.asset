@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d88e76237cd2d7429f7b61b8d249e55, type: 3}
+  m_Name: Vanguard_Artillery
+  m_EditorClassIdentifier: Assembly-CSharp::NeonFrontier.ArmyDefinition
+  id: Vanguard_Artillery
+  displayName: Longbow Coil Battery
+  faction: Vanguard
+  category: Vehicle
+  role: Long-range precision artillery
+  description: A deployable electromagnetic gun fires precise long-range rounds.
+    Reconnaissance unlocks its reach; close pressure shuts it down.
+  tier: 2
+  cost: 1400
+  health: 600
+  range: 62
+  speed: 5.2
+  strengths:
+  - Static defenses
+  - Concentrated armor
+  weaknesses:
+  - Fast flanks
+  - Aircraft
+  prefab: {fileID: 8610988315386747269, guid: c67dabefa72255f46a562e3e65c8b67c, type: 3}

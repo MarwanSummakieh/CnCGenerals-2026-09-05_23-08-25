@@ -1,0 +1,198 @@
+[
+  {
+    "asset": "Vanguard_Airfield",
+    "anchors": {
+      "AircraftPad0": {
+        "parent": "Vanguard_Airfield",
+        "world_m": [
+          5.0,
+          -10.5,
+          0.4
+        ]
+      },
+      "AircraftPad1": {
+        "parent": "Vanguard_Airfield",
+        "world_m": [
+          5.0,
+          -3.5,
+          0.4
+        ]
+      },
+      "AircraftPad2": {
+        "parent": "Vanguard_Airfield",
+        "world_m": [
+          5.0,
+          3.5,
+          0.4
+        ]
+      },
+      "AircraftPad3": {
+        "parent": "Vanguard_Airfield",
+        "world_m": [
+          5.0,
+          10.5,
+          0.4
+        ]
+      },
+      "AircraftRunwayStart": {
+        "parent": "Vanguard_Airfield",
+        "world_m": [
+          -5.5,
+          -14.5,
+          0.4
+        ]
+      },
+      "AircraftRunwayEnd": {
+        "parent": "Vanguard_Airfield",
+        "world_m": [
+          -5.5,
+          14.5,
+          0.4
+        ]
+      }
+    },
+    "valid": true
+  },
+  {
+    "asset": "Vanguard_Factory",
+    "anchors": {
+      "ProductionExit": {
+        "parent": "Vanguard_Factory",
+        "world_m": [
+          0.0,
+          -3.1,
+          0.62
+        ]
+      },
+      "ProductionLaneEnd": {
+        "parent": "Vanguard_Factory",
+        "world_m": [
+          0.0,
+          -8.4,
+          0.62
+        ]
+      }
+    },
+    "valid": true
+  },
+  {
+    "asset": "Vanguard_Barracks",
+    "anchors": {
+      "ProductionExit": {
+        "parent": "Vanguard_Barracks",
+        "world_m": [
+          0.0,
+          -3.8,
+          0.62
+        ]
+      },
+      "ProductionLaneEnd": {
+        "parent": "Vanguard_Barracks",
+        "world_m": [
+          0.0,
+          -5.5,
+          0.62
+        ]
+      }
+    },
+    "valid": true
+  },
+  {
+    "asset": "Dynasty_Airfield",
+    "anchors": {
+      "AircraftPad0": {
+        "parent": "Dynasty_Airfield",
+        "world_m": [
+          5.0,
+          -10.5,
+          0.4
+        ]
+      },
+      "AircraftPad1": {
+        "parent": "Dynasty_Airfield",
+        "world_m": [
+          5.0,
+          -3.5,
+          0.4
+        ]
+      },
+      "AircraftPad2": {
+        "parent": "Dynasty_Airfield",
+        "world_m": [
+          5.0,
+          3.5,
+          0.4
+        ]
+      },
+      "AircraftPad3": {
+        "parent": "Dynasty_Airfield",
+        "world_m": [
+          5.0,
+          10.5,
+          0.4
+        ]
+      },
+      "AircraftRunwayStart": {
+        "parent": "Dynasty_Airfield",
+        "world_m": [
+          -5.5,
+          -14.5,
+          0.4
+        ]
+      },
+      "AircraftRunwayEnd": {
+        "parent": "Dynasty_Airfield",
+        "world_m": [
+          -5.5,
+          14.5,
+          0.4
+        ]
+      }
+    },
+    "valid": true
+  },
+  {
+    "asset": "Dynasty_Factory",
+    "anchors": {
+      "ProductionExit": {
+        "parent": "Dynasty_Factory",
+        "world_m": [
+          0.0,
+          -3.1,
+          0.62
+        ]
+      },
+      "ProductionLaneEnd": {
+        "parent": "Dynasty_Factory",
+        "world_m": [
+          0.0,
+          -8.4,
+          0.62
+        ]
+      }
+    },
+    "valid": true
+  },
+  {
+    "asset": "Dynasty_Barracks",
+    "anchors": {
+      "ProductionExit": {
+        "parent": "Dynasty_Barracks",
+        "world_m": [
+          0.0,
+          -3.8,
+          0.62
+        ]
+      },
+      "ProductionLaneEnd": {
+        "parent": "Dynasty_Barracks",
+        "world_m": [
+          0.0,
+          -5.5,
+          0.62
+        ]
+      }
+    },
+    "valid": true
+  }
+]

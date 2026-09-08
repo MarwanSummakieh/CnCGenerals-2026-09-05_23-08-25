@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d88e76237cd2d7429f7b61b8d249e55, type: 3}
+  m_Name: Dynasty_Superweapon
+  m_EditorClassIdentifier: Assembly-CSharp::NeonFrontier.ArmyDefinition
+  id: Dynasty_Superweapon
+  displayName: Heavenforge Particle Spire
+  faction: Dynasty
+  category: Structure
+  role: Strategic area energy superweapon
+  description: A fortified energy emitter prepares a proposed large-area particle
+    discharge behind a public countdown. Its exposed charged spire invites decisive
+    counter-raids.
+  tier: 3
+  cost: 5000
+  health: 4000
+  range: 120
+  speed: 0
+  strengths:
+  - Area denial
+  - Dense base damage
+  weaknesses:
+  - Long visible charge
+  - Raids / power loss
+  prefab: {fileID: 8448855478616041723, guid: 2ae520e4427a2e34bb6c66a448d2125a, type: 3}

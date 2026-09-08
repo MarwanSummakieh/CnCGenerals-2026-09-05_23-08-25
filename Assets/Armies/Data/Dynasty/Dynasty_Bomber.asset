@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d88e76237cd2d7429f7b61b8d249e55, type: 3}
+  m_Name: Dynasty_Bomber
+  m_EditorClassIdentifier: Assembly-CSharp::NeonFrontier.ArmyDefinition
+  id: Dynasty_Bomber
+  displayName: Heavenfall Arsenal Plane
+  faction: Dynasty
+  category: Aircraft
+  role: Heavy area bombardment
+  description: A broad heavy bomber with multiple engines and a deep payload bay.
+    Saturation attacks punish dense bases and static battle lines.
+  tier: 3
+  cost: 2600
+  health: 1400
+  range: 28
+  speed: 14
+  strengths:
+  - Dense structures
+  - Stationary armies
+  weaknesses:
+  - Fighter interception
+  - Scattered targets
+  prefab: {fileID: 3123101865273102861, guid: 3942867cd7ba9304a83abe926c8b15dc, type: 3}

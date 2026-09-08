@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d88e76237cd2d7429f7b61b8d249e55, type: 3}
+  m_Name: Dynasty_Command
+  m_EditorClassIdentifier: Assembly-CSharp::NeonFrontier.ArmyDefinition
+  id: Dynasty_Command
+  displayName: Dynasty Directorate
+  faction: Dynasty
+  category: Structure
+  role: Headquarters / construction access
+  description: A fortified administrative citadel crowned with communications masts.
+    Produces Ox Crawlers and coordinates the industrial base.
+  tier: 1
+  cost: 2500
+  health: 6000
+  range: 0
+  speed: 0
+  strengths:
+  - Durable headquarters
+  - Construction access
+  weaknesses:
+  - Strategic priority target
+  - No direct weapon
+  prefab: {fileID: 8884209048767339886, guid: a3965545ce987d34ab94f8e14c58f6ad, type: 3}

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d88e76237cd2d7429f7b61b8d249e55, type: 3}
+  m_Name: Vanguard_Rocket
+  m_EditorClassIdentifier: Assembly-CSharp::NeonFrontier.ArmyDefinition
+  id: Vanguard_Rocket
+  displayName: Arc Lancer
+  faction: Vanguard
+  category: Infantry
+  role: Portable anti-armor / anti-air
+  description: A shoulder-mounted guided launcher gives small squads a precise response
+    to armor and low-flying aircraft.
+  tier: 1
+  cost: 350
+  health: 130
+  range: 26
+  speed: 3.8
+  strengths:
+  - Armored vehicles
+  - Helicopters
+  weaknesses:
+  - Suppression
+  - Close infantry
+  prefab: {fileID: 1212286526235847864, guid: dab4c29646599bc4789fc8a2875eb875, type: 3}

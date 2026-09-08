@@ -1,0 +1,131 @@
+NEON FRONTIER / RUNTIME VERIFICATION
+Status: passed
+Started: 2026-09-07T22:14:35.1155359Z
+Wall time: 75.6 seconds
+Window activation delay: 3.0 seconds
+PASS Rendered standalone verification — Run the player with graphics enabled and omit -batchmode/-nographics so screenshots include the actual IMGUI.
+PASS Controller and runtime initialized — GameFlowController.Start created the battlefield and simulation.
+PASS Full roster assigned — 52 army definitions with prefab references.
+PASS Startup opens the main menu — MainMenu
+PASS Visible offscreen interface capture: 01-main-menu — Same OnGUI Repaint draws into the camera target; changed 3708/3710 interface-region samples versus world alone.
+PASS Settings opens from main menu — Existing settings entry point.
+PASS Settings returns to main menu — Return screen preserved.
+PASS Field manual opens — Existing manual entry point.
+PASS Visible offscreen interface capture: 02-field-manual — Same OnGUI Repaint draws into the camera target; changed 3707/3710 interface-region samples versus world alone.
+PASS Field manual returns to main menu — Return screen preserved.
+PASS Skirmish setup selects Vanguard — Vanguard / relaxed difficulty.
+PASS Visible offscreen interface capture: 03-skirmish-setup — Same OnGUI Repaint draws into the camera target; changed 3704/3710 interface-region samples versus world alone.
+PASS Vanguard deploy reaches the playable match — Timeout budget: 8 real seconds.
+PASS Opposing headquarters deployed — Vanguard player versus Dynasty opponent.
+PASS Starting army contains builder and scout — Both playable RTS roles are present.
+PASS Visible offscreen interface capture: 04-vanguard-match — Same OnGUI Repaint draws into the camera target; changed 1256/1400 interface-region samples versus world alone.
+PASS Pause stops the simulation — Paused state and zero timescale.
+PASS Visible offscreen interface capture: 05-paused — Same OnGUI Repaint draws into the camera target; changed 3701/3710 interface-region samples versus world alone.
+PASS Paused settings returns to pause — Match remains paused while browsing settings.
+PASS Paused manual returns to pause — Match remains paused while browsing the field manual.
+PASS Paused economy and elapsed time stay frozen — Elapsed 1.428 -> 1.428; credits 5000 -> 5000.
+PASS Resume restores play — Normal simulation resumes.
+PASS Resource economy produces actual income — Timeout budget: 6 real seconds.
+PASS Income increases spendable credits — 5000 -> 5200 credits.
+PASS Visible offscreen interface capture: 06-concrete-bridge — Same OnGUI Repaint draws into the camera target; changed 1264/1400 interface-region samples versus world alone.
+PASS Ground scout reaches the opposite river bank — Scout moved from (-73.00, 0.00, -24.00) to (38.97, -0.02, 5.89); destination (42.00, -0.02, 6.00).
+PASS River crossing remains on walkable ground — 80 actual movement samples, entered river corridor=True, all footprint samples walkable=True.
+PASS A starting producer offers recruitable units — Ranger Deployment Center
+PASS Queue accepts an affordable recruit — Ghostwire Specialist
+PASS Production charges the recruit cost — 5400 - 450 = 4950.
+PASS Recruit enters the production queue — Real production order present.
+PASS River construction is rejected without spending — Placement refusal: Requires clear grass with space around the building
+PASS Worker places a valid foundation — (-95.00, -0.04, -66.00)
+PASS Construction creates an unfinished foundation — Build progress: 0.00
+PASS Queued production spawns an actual recruit — Timeout budget: 12 real seconds.
+PASS Completed recruit leaves its production queue — The one queued recruit was produced.
+PASS Recruit deploys through the modeled barracks exit — Live production uses the imported exit and deployment lane.
+PASS Halted recruit safely clears its production doorway — Timeout budget: 5 real seconds.
+PASS Halt during deployment does not restart the rally order — The recruit finishes the exit lane and guards there.
+PASS Worker completes the placed foundation — Timeout budget: 15 real seconds.
+PASS Completed structure has live health — Helios Fusion Plant
+PASS Visible offscreen interface capture: 07-completed-construction — Same OnGUI Repaint draws into the camera target; changed 1119/1400 interface-region samples versus world alone.
+PASS Combat fixture has opposing scouts — Existing player and enemy scouts.
+PASS Relocated combat fixture enters allied sight — Timeout budget: 5 real seconds.
+PASS Issued attack deals actual weapon damage — Live combat and projectile damage.
+PASS Combat lowers opposing health — Enemy scout health 260.0 -> 170.0.
+PASS Wider ground-unit navigation fixture exists — Use the actual deployed tank and its full navigation radius.
+PASS Tank survives to test crossing at z=-58 — Each crossing uses a live tank.
+PASS Tank crosses concrete bridge at z=-58 — Reached east bank=True; entered river corridor=True; full radius walkable=True; samples=96; radius=1.98.
+PASS Tank survives to test crossing at z=6 — Each crossing uses a live tank.
+PASS Tank crosses concrete bridge at z=6 — Reached east bank=True; entered river corridor=True; full radius walkable=True; samples=96; radius=1.98.
+PASS Tank survives to test crossing at z=64 — Each crossing uses a live tank.
+PASS Tank crosses concrete bridge at z=64 — Reached east bank=True; entered river corridor=True; full radius walkable=True; samples=96; radius=1.98.
+PASS Enemy first assault naturally crosses onto the western bank — Observed 10 enemy ground units leaving their actual eastern base; first crossing=Longma Battle Tank at 115.6s; walkable footprints=True; match time 36.3 to 115.7s; extra wall time=13.3s.
+PASS Enemy headquarters destruction opens victory — Timeout budget: 3 real seconds.
+PASS Victory stops the match — Result state freezes simulation.
+PASS Visible offscreen interface capture: 08-victory — Same OnGUI Repaint draws into the camera target; changed 3701/3710 interface-region samples versus world alone.
+PASS Play again restarts after victory — Timeout budget: 8 real seconds.
+PASS Rematch replaces the old army and headquarters — New live headquarters and fresh match timer.
+PASS Player headquarters destruction opens defeat — Timeout budget: 3 real seconds.
+PASS Defeat stops the match — Result state freezes simulation.
+PASS Visible offscreen interface capture: 09-defeat — Same OnGUI Repaint draws into the camera target; changed 3702/3710 interface-region samples versus world alone.
+PASS Defeat return to menu clears the army — No remaining RtsUnit objects, simulation entries, selected units or paused timescale.
+PASS Dynasty faction deploys successfully — Timeout budget: 8 real seconds.
+PASS Dynasty reverses the faction matchup — Dynasty player versus Vanguard opponent.
+PASS Visible offscreen interface capture: 10-dynasty-match — Same OnGUI Repaint draws into the camera target; changed 1214/1400 interface-region samples versus world alone.
+PASS A running skirmish can restart cleanly — Timeout budget: 8 real seconds.
+PASS Restart preserves faction and resets match state — New Dynasty army, fresh timer, empty selection.
+PASS Starting base has a working power budget — Power 30/15.
+PASS Enemy headquarters begins concealed by fog — Sight is shared by allies and hidden enemy objects remain in the simulation.
+PASS Queue accepts a unit for cancellation — Real production API.
+PASS Cancelling production refunds its full cost — Cancelled before production advanced.
+PASS Invalid production cancellation is harmless — No double refund.
+PASS Reconnaissance reveals the enemy headquarters — Move an actual scout into sight range.
+PASS Lost vision conceals enemy headquarters again — Exploration persists but enemy objects are hidden.
+PASS A visible shell exists before its damage arrives — Projectile damage is deferred until impact.
+PASS Shell impact applies damage and emits effects — Timeout budget: 3 real seconds.
+PASS Combat inspection camera settles — Timeout budget: 5 real seconds.
+PASS Visible offscreen interface capture: 12-combat-fidelity — Same OnGUI Repaint draws into the camera target; changed 1298/1400 interface-region samples versus world alone.
+PASS Confirmed kills award veteran experience — Experience comes from a defeated opposing unit.
+PASS Technology center foundation is accepted — (-95.00, -0.04, -66.00)
+PASS Technology center completes through worker construction — Timeout budget: 18 real seconds.
+PASS Economy funds the armor upgrade — Timeout budget: 8 real seconds.
+PASS Armor research applies to existing troops — Existing troop max health increases by 25%.
+PASS Research cannot be purchased twice — No repeat spending or stacking.
+PASS Visible offscreen interface capture: 13-research-command — Same OnGUI Repaint draws into the camera target; changed 1282/1400 interface-region samples versus world alone.
+PASS Destroying power causes a real shortage — Infrastructure destruction changes the simulated power budget.
+PASS Research requires a powered base — Requires sufficient power
+PASS Queue can retain work during power shortage — Barracks production is slowed rather than discarded.
+PASS Low power slows production to thirty percent — Progress=0.246; elapsed=0.819.
+PASS Fresh match for airfield operations — Timeout budget: 8 real seconds.
+PASS Airfield model carries four physical pad anchors — Imported Blender attachment points used for actual parking.
+PASS Supply economy funds four aircraft — Timeout budget: 15 real seconds.
+PASS Queue reserves plane slot 1 — Queues and live aircraft share four slots.
+PASS Queue reserves plane slot 2 — Queues and live aircraft share four slots.
+PASS Queue reserves plane slot 3 — Queues and live aircraft share four slots.
+PASS Queue reserves plane slot 4 — Queues and live aircraft share four slots.
+PASS Four queued planes prevent a fifth order — Airfield full: four plane slots, including queued aircraft
+PASS Cancelling a plane releases its reserved slot — Slot reservation refunded with order.
+PASS Freed plane slot can be queued again — Fourth slot re-reserved.
+PASS Four actual planes finish production at the airfield — Timeout budget: 27 real seconds.
+PASS Four planes occupy distinct physical parking pads — Each finished aircraft parks at its own exported model anchor.
+PASS Airfield inspection camera settles — Timeout budget: 5 real seconds.
+PASS Visible offscreen interface capture: 14-four-plane-airfield — Same OnGUI Repaint draws into the camera target; changed 1285/1400 interface-region samples versus world alone.
+PASS Ordered plane launches from its parking pad — Timeout budget: 5 real seconds.
+PASS Stopping a returning aircraft still allows it to land — Timeout budget: 8 real seconds.
+PASS Partly spent aircraft begins rearming on its pad — Timeout budget: 3 real seconds.
+PASS Advance beyond normal rearming time after airfield destruction — Timeout budget: 4 real seconds.
+PASS Destroyed airfields cannot rearm surviving aircraft — No healing or ammunition regeneration without a surviving airfield.
+PASS Final return to menu clears all runtime units — No remaining RtsUnit objects, simulation entries, selected units or paused timescale.
+PASS Visible offscreen interface capture: 11-returned-main-menu — Same OnGUI Repaint draws into the camera target; changed 3706/3710 interface-region samples versus world alone.
+PASS No runtime errors or exceptions — 
+IMAGE 01-main-menu.png — MainMenu / 1600 × 900 / offscreen world + actual IMGUI / nonblank=True / includes interface=True
+IMAGE 02-field-manual.png — Manual / 1600 × 900 / offscreen world + actual IMGUI / nonblank=True / includes interface=True
+IMAGE 03-skirmish-setup.png — Setup / 1600 × 900 / offscreen world + actual IMGUI / nonblank=True / includes interface=True
+IMAGE 04-vanguard-match.png — Playing / 1600 × 900 / offscreen world + actual IMGUI / nonblank=True / includes interface=True
+IMAGE 05-paused.png — Paused / 1600 × 900 / offscreen world + actual IMGUI / nonblank=True / includes interface=True
+IMAGE 06-concrete-bridge.png — Playing / 1600 × 900 / offscreen world + actual IMGUI / nonblank=True / includes interface=True
+IMAGE 07-completed-construction.png — Playing / 1600 × 900 / offscreen world + actual IMGUI / nonblank=True / includes interface=True
+IMAGE 08-victory.png — Victory / 1600 × 900 / offscreen world + actual IMGUI / nonblank=True / includes interface=True
+IMAGE 09-defeat.png — Defeat / 1600 × 900 / offscreen world + actual IMGUI / nonblank=True / includes interface=True
+IMAGE 10-dynasty-match.png — Playing / 1600 × 900 / offscreen world + actual IMGUI / nonblank=True / includes interface=True
+IMAGE 12-combat-fidelity.png — Playing / 1600 × 900 / offscreen world + actual IMGUI / nonblank=True / includes interface=True
+IMAGE 13-research-command.png — Playing / 1600 × 900 / offscreen world + actual IMGUI / nonblank=True / includes interface=True
+IMAGE 14-four-plane-airfield.png — Playing / 1600 × 900 / offscreen world + actual IMGUI / nonblank=True / includes interface=True
+IMAGE 11-returned-main-menu.png — MainMenu / 1600 × 900 / offscreen world + actual IMGUI / nonblank=True / includes interface=True

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d88e76237cd2d7429f7b61b8d249e55, type: 3}
+  m_Name: Vanguard_Fighter
+  m_EditorClassIdentifier: Assembly-CSharp::NeonFrontier.ArmyDefinition
+  id: Vanguard_Fighter
+  displayName: Razorwing Interceptor
+  faction: Vanguard
+  category: Aircraft
+  role: Air superiority / precision strike
+  description: A sharp-profile combat jet built around air control. Limited strike
+    capacity rewards target priority and rearming discipline.
+  tier: 2
+  cost: 1800
+  health: 750
+  range: 32
+  speed: 24
+  strengths:
+  - Enemy aircraft
+  - Priority targets
+  weaknesses:
+  - Layered air defenses
+  - Long attrition
+  prefab: {fileID: 439793055141468744, guid: 257d2211dc4bf64459d918f6e658cdd9, type: 3}

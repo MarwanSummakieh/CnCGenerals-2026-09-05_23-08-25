@@ -1,0 +1,101 @@
+{
+  "product": "Neon Frontier",
+  "version": "0.1.0",
+  "startedUtc": "2026-09-08T07:19:07.2807039Z",
+  "finishedUtc": "2026-09-08T07:20:40.9852895Z",
+  "status": "passed",
+  "failure": null,
+  "installerSha256": "8c54a91fcf41242b7da685ee243cf962e087b1ec70dbdacdf046cd129541d3b8",
+  "checks": [
+    {
+      "name": "Silent current-user installation",
+      "passed": true,
+      "detail": "Setup must finish successfully without interaction."
+    },
+    {
+      "name": "Windows uninstall registration",
+      "passed": true,
+      "detail": "Current-user uninstall entry exists."
+    },
+    {
+      "name": "Registered version",
+      "passed": true,
+      "detail": "Uninstall entry matches this release."
+    },
+    {
+      "name": "Registered installation directory",
+      "passed": true,
+      "detail": "Uninstaller owns only the isolated test directory."
+    },
+    {
+      "name": "Start Menu shortcut created",
+      "passed": true,
+      "detail": "Default installation includes a launch shortcut."
+    },
+    {
+      "name": "Shortcut launches the installed game",
+      "passed": true,
+      "detail": "Shortcut points to this installation."
+    },
+    {
+      "name": "Installed payload matches source manifest",
+      "passed": true,
+      "detail": "Verified all 191 game files by SHA-256."
+    },
+    {
+      "name": "No debug or unrelated files installed",
+      "passed": true,
+      "detail": "Only the release payload, icon and uninstaller are installed."
+    },
+    {
+      "name": "Portable ZIP file count",
+      "passed": true,
+      "detail": "Portable archive has the identical game payload."
+    },
+    {
+      "name": "Portable ZIP content integrity",
+      "passed": true,
+      "detail": "Every decompressed file matches the source payload SHA-256."
+    },
+    {
+      "name": "Installed game starts",
+      "passed": true,
+      "detail": "The installed executable remains running after launch."
+    },
+    {
+      "name": "Setup rejects a running game",
+      "passed": true,
+      "detail": "A second silent setup refuses to change a live installation."
+    },
+    {
+      "name": "Setup leaves the running match intact",
+      "passed": true,
+      "detail": "Process guard does not terminate the game."
+    },
+    {
+      "name": "Installed game runtime verification",
+      "passed": true,
+      "detail": "112 runtime checks; zero runtime errors required."
+    },
+    {
+      "name": "Installed game interface renders",
+      "passed": true,
+      "detail": "Fourteen valid world-and-interface captures from the installed player."
+    },
+    {
+      "name": "Silent uninstall completes",
+      "passed": true,
+      "detail": "Uninstaller reports success."
+    },
+    {
+      "name": "Uninstall removes game and registration",
+      "passed": true,
+      "detail": "Installed game and its current-user uninstall entry are removed."
+    },
+    {
+      "name": "Uninstall removes launch shortcut",
+      "passed": true,
+      "detail": "Start Menu is restored after the test."
+    }
+  ]
+}

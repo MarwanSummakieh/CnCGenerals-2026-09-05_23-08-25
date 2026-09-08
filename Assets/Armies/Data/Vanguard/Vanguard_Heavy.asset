@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d88e76237cd2d7429f7b61b8d249e55, type: 3}
+  m_Name: Vanguard_Heavy
+  m_EditorClassIdentifier: Assembly-CSharp::NeonFrontier.ArmyDefinition
+  id: Vanguard_Heavy
+  displayName: Atlas Siege Tank
+  faction: Vanguard
+  category: Vehicle
+  role: Heavy breakthrough / fire support
+  description: A broad tracked assault platform with paired rail weapons. Its mass
+    and slow repositioning demand an escort.
+  tier: 3
+  cost: 2500
+  health: 3000
+  range: 32
+  speed: 3.8
+  strengths:
+  - Fortifications
+  - Heavy armor
+  weaknesses:
+  - Air strikes
+  - Mobile artillery
+  prefab: {fileID: 428192395852986836, guid: 88ab5452f31ef404fbe0abadc60a707a, type: 3}

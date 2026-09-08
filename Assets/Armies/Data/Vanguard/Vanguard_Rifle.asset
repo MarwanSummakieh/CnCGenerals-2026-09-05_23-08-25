@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d88e76237cd2d7429f7b61b8d249e55, type: 3}
+  m_Name: Vanguard_Rifle
+  m_EditorClassIdentifier: Assembly-CSharp::NeonFrontier.ArmyDefinition
+  id: Vanguard_Rifle
+  displayName: Neon Ranger
+  faction: Vanguard
+  category: Infantry
+  role: General-purpose line infantry
+  description: Professional infantry in sealed ivory and navy armor. Smart optics
+    and disciplined fire reward cover and combined-arms support.
+  tier: 1
+  cost: 200
+  health: 160
+  range: 18
+  speed: 4.5
+  strengths:
+  - Enemy infantry
+  - Garrison fighting
+  weaknesses:
+  - Area weapons
+  - Heavy armor
+  prefab: {fileID: 595545630486611466, guid: caf8299aba9ffae4ab3386c51ad86821, type: 3}

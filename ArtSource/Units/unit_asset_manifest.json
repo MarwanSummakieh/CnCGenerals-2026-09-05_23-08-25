@@ -1,0 +1,374 @@
+[
+  {
+    "name": "Dynasty_APC",
+    "triangles": 12236,
+    "dimensions_m": [
+      3.49,
+      5.159,
+      3.174
+    ],
+    "articulated_parts": [
+      "TurretPivot"
+    ],
+    "file": "Assets/Armies/Models/Units/Dynasty_APC.fbx"
+  },
+  {
+    "name": "Dynasty_AntiAir",
+    "triangles": 17664,
+    "dimensions_m": [
+      3.686,
+      4.708,
+      3.346
+    ],
+    "articulated_parts": [],
+    "file": "Assets/Armies/Models/Units/Dynasty_AntiAir.fbx"
+  },
+  {
+    "name": "Dynasty_Artillery",
+    "triangles": 18068,
+    "dimensions_m": [
+      3.686,
+      4.844,
+      3.152
+    ],
+    "articulated_parts": [],
+    "file": "Assets/Armies/Models/Units/Dynasty_Artillery.fbx"
+  },
+  {
+    "name": "Dynasty_Bomber",
+    "triangles": 45478,
+    "dimensions_m": [
+      11.969,
+      6.96,
+      2.35
+    ],
+    "articulated_parts": [],
+    "file": "Assets/Armies/Models/Units/Dynasty_Bomber.fbx"
+  },
+  {
+    "name": "Dynasty_Commando",
+    "triangles": 2544,
+    "dimensions_m": [
+      0.962,
+      2.138,
+      2.148
+    ],
+    "articulated_parts": [],
+    "file": "Assets/Armies/Models/Units/Dynasty_Commando.fbx"
+  },
+  {
+    "name": "Dynasty_Drone",
+    "triangles": 55982,
+    "dimensions_m": [
+      5.061,
+      3.41,
+      1.152
+    ],
+    "articulated_parts": [],
+    "file": "Assets/Armies/Models/Units/Dynasty_Drone.fbx"
+  },
+  {
+    "name": "Dynasty_Engineer",
+    "triangles": 2424,
+    "dimensions_m": [
+      0.962,
+      1.578,
+      2.148
+    ],
+    "articulated_parts": [],
+    "file": "Assets/Armies/Models/Units/Dynasty_Engineer.fbx"
+  },
+  {
+    "name": "Dynasty_Fighter",
+    "triangles": 37710,
+    "dimensions_m": [
+      10.329,
+      6.96,
+      2.35
+    ],
+    "articulated_parts": [],
+    "file": "Assets/Armies/Models/Units/Dynasty_Fighter.fbx"
+  },
+  {
+    "name": "Dynasty_Heavy",
+    "triangles": 78180,
+    "dimensions_m": [
+      4.543,
+      8.478,
+      3.737
+    ],
+    "articulated_parts": [
+      "TurretPivot"
+    ],
+    "file": "Assets/Armies/Models/Units/Dynasty_Heavy.fbx"
+  },
+  {
+    "name": "Dynasty_Helicopter",
+    "triangles": 42718,
+    "dimensions_m": [
+      9.352,
+      9.62,
+      3.44
+    ],
+    "articulated_parts": [
+      "Rotor"
+    ],
+    "file": "Assets/Armies/Models/Units/Dynasty_Helicopter.fbx"
+  },
+  {
+    "name": "Dynasty_Rifle",
+    "triangles": 2504,
+    "dimensions_m": [
+      0.962,
+      1.808,
+      2.148
+    ],
+    "articulated_parts": [],
+    "file": "Assets/Armies/Models/Units/Dynasty_Rifle.fbx"
+  },
+  {
+    "name": "Dynasty_Rocket",
+    "triangles": 2620,
+    "dimensions_m": [
+      0.991,
+      1.613,
+      2.148
+    ],
+    "articulated_parts": [],
+    "file": "Assets/Armies/Models/Units/Dynasty_Rocket.fbx"
+  },
+  {
+    "name": "Dynasty_Scout",
+    "triangles": 8436,
+    "dimensions_m": [
+      2.87,
+      3.461,
+      2.48
+    ],
+    "articulated_parts": [
+      "TurretPivot"
+    ],
+    "file": "Assets/Armies/Models/Units/Dynasty_Scout.fbx"
+  },
+  {
+    "name": "Dynasty_Support",
+    "triangles": 10972,
+    "dimensions_m": [
+      3.49,
+      4.86,
+      3.344
+    ],
+    "articulated_parts": [],
+    "file": "Assets/Armies/Models/Units/Dynasty_Support.fbx"
+  },
+  {
+    "name": "Dynasty_Tank",
+    "triangles": 69956,
+    "dimensions_m": [
+      4.244,
+      8.021,
+      3.627
+    ],
+    "articulated_parts": [
+      "TurretPivot"
+    ],
+    "file": "Assets/Armies/Models/Units/Dynasty_Tank.fbx"
+  },
+  {
+    "name": "Dynasty_Worker",
+    "triangles": 15516,
+    "dimensions_m": [
+      3.366,
+      4.478,
+      3.4
+    ],
+    "articulated_parts": [],
+    "file": "Assets/Armies/Models/Units/Dynasty_Worker.fbx"
+  },
+  {
+    "name": "Vanguard_APC",
+    "triangles": 12044,
+    "dimensions_m": [
+      3.49,
+      5.159,
+      3.174
+    ],
+    "articulated_parts": [
+      "TurretPivot"
+    ],
+    "file": "Assets/Armies/Models/Units/Vanguard_APC.fbx"
+  },
+  {
+    "name": "Vanguard_AntiAir",
+    "triangles": 17664,
+    "dimensions_m": [
+      3.686,
+      4.708,
+      3.346
+    ],
+    "articulated_parts": [],
+    "file": "Assets/Armies/Models/Units/Vanguard_AntiAir.fbx"
+  },
+  {
+    "name": "Vanguard_Artillery",
+    "triangles": 17284,
+    "dimensions_m": [
+      3.686,
+      6.248,
+      3.324
+    ],
+    "articulated_parts": [],
+    "file": "Assets/Armies/Models/Units/Vanguard_Artillery.fbx"
+  },
+  {
+    "name": "Vanguard_Bomber",
+    "triangles": 45478,
+    "dimensions_m": [
+      11.3,
+      6.96,
+      2.35
+    ],
+    "articulated_parts": [],
+    "file": "Assets/Armies/Models/Units/Vanguard_Bomber.fbx"
+  },
+  {
+    "name": "Vanguard_Commando",
+    "triangles": 2544,
+    "dimensions_m": [
+      0.962,
+      2.138,
+      2.148
+    ],
+    "articulated_parts": [],
+    "file": "Assets/Armies/Models/Units/Vanguard_Commando.fbx"
+  },
+  {
+    "name": "Vanguard_Drone",
+    "triangles": 55982,
+    "dimensions_m": [
+      4.78,
+      3.41,
+      1.152
+    ],
+    "articulated_parts": [],
+    "file": "Assets/Armies/Models/Units/Vanguard_Drone.fbx"
+  },
+  {
+    "name": "Vanguard_Engineer",
+    "triangles": 2424,
+    "dimensions_m": [
+      0.962,
+      1.578,
+      2.148
+    ],
+    "articulated_parts": [],
+    "file": "Assets/Armies/Models/Units/Vanguard_Engineer.fbx"
+  },
+  {
+    "name": "Vanguard_Fighter",
+    "triangles": 37710,
+    "dimensions_m": [
+      9.755,
+      6.96,
+      2.35
+    ],
+    "articulated_parts": [],
+    "file": "Assets/Armies/Models/Units/Vanguard_Fighter.fbx"
+  },
+  {
+    "name": "Vanguard_Heavy",
+    "triangles": 78180,
+    "dimensions_m": [
+      4.543,
+      8.478,
+      3.737
+    ],
+    "articulated_parts": [
+      "TurretPivot"
+    ],
+    "file": "Assets/Armies/Models/Units/Vanguard_Heavy.fbx"
+  },
+  {
+    "name": "Vanguard_Helicopter",
+    "triangles": 42718,
+    "dimensions_m": [
+      9.352,
+      9.62,
+      3.44
+    ],
+    "articulated_parts": [
+      "Rotor"
+    ],
+    "file": "Assets/Armies/Models/Units/Vanguard_Helicopter.fbx"
+  },
+  {
+    "name": "Vanguard_Rifle",
+    "triangles": 2504,
+    "dimensions_m": [
+      0.962,
+      1.808,
+      2.148
+    ],
+    "articulated_parts": [],
+    "file": "Assets/Armies/Models/Units/Vanguard_Rifle.fbx"
+  },
+  {
+    "name": "Vanguard_Rocket",
+    "triangles": 2620,
+    "dimensions_m": [
+      0.991,
+      1.613,
+      2.148
+    ],
+    "articulated_parts": [],
+    "file": "Assets/Armies/Models/Units/Vanguard_Rocket.fbx"
+  },
+  {
+    "name": "Vanguard_Scout",
+    "triangles": 8244,
+    "dimensions_m": [
+      2.87,
+      3.461,
+      2.48
+    ],
+    "articulated_parts": [
+      "TurretPivot"
+    ],
+    "file": "Assets/Armies/Models/Units/Vanguard_Scout.fbx"
+  },
+  {
+    "name": "Vanguard_Support",
+    "triangles": 10972,
+    "dimensions_m": [
+      3.49,
+      4.86,
+      3.344
+    ],
+    "articulated_parts": [],
+    "file": "Assets/Armies/Models/Units/Vanguard_Support.fbx"
+  },
+  {
+    "name": "Vanguard_Tank",
+    "triangles": 69956,
+    "dimensions_m": [
+      4.244,
+      8.021,
+      3.627
+    ],
+    "articulated_parts": [
+      "TurretPivot"
+    ],
+    "file": "Assets/Armies/Models/Units/Vanguard_Tank.fbx"
+  },
+  {
+    "name": "Vanguard_Worker",
+    "triangles": 15516,
+    "dimensions_m": [
+      3.366,
+      4.478,
+      3.4
+    ],
+    "articulated_parts": [],
+    "file": "Assets/Armies/Models/Units/Vanguard_Worker.fbx"
+  }
+]

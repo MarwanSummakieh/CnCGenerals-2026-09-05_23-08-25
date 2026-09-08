@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d88e76237cd2d7429f7b61b8d249e55, type: 3}
+  m_Name: Dynasty_Support
+  m_EditorClassIdentifier: Assembly-CSharp::NeonFrontier.ArmyDefinition
+  id: Dynasty_Support
+  displayName: Forge Repair Carrier
+  faction: Dynasty
+  category: Vehicle
+  role: Heavy repair / army sustain
+  description: A six-wheel support vehicle carries spare armor, manipulator cranes,
+    and field tools. Keeps a slow armored push supplied and repaired.
+  tier: 2
+  cost: 800
+  health: 900
+  range: 14
+  speed: 5.5
+  strengths:
+  - Heavy vehicle sustain
+  - Prolonged pushes
+  weaknesses:
+  - Air raids
+  - Focus fire
+  prefab: {fileID: 3510156386095052211, guid: 3ee4286d51511fb4a80635b37282d9c3, type: 3}

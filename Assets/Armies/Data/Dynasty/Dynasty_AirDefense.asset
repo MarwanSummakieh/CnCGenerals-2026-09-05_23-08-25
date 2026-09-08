@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d88e76237cd2d7429f7b61b8d249e55, type: 3}
+  m_Name: Dynasty_AirDefense
+  m_EditorClassIdentifier: Assembly-CSharp::NeonFrontier.ArmyDefinition
+  id: Dynasty_AirDefense
+  displayName: Skywall Missile Tower
+  faction: Dynasty
+  category: Structure
+  role: Static anti-air missile defense
+  description: An elevated eight-tube missile emplacement with heavy radar. Overlapping
+    guided volleys protect the industrial core from aerial attacks.
+  tier: 2
+  cost: 900
+  health: 1900
+  range: 35
+  speed: 0
+  strengths:
+  - Aircraft
+  - Low-flying attackers
+  weaknesses:
+  - Ground armor
+  - Precision artillery
+  prefab: {fileID: 205583968621116798, guid: 713647070df99e0479e90dd3531b4f03, type: 3}

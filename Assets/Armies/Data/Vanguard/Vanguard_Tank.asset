@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d88e76237cd2d7429f7b61b8d249e55, type: 3}
+  m_Name: Vanguard_Tank
+  m_EditorClassIdentifier: Assembly-CSharp::NeonFrontier.ArmyDefinition
+  id: Vanguard_Tank
+  displayName: Paladin Railtank
+  faction: Vanguard
+  category: Vehicle
+  role: Precision main battle tank
+  description: An angular railgun tank with spaced armor and a low turret. Wins deliberate
+    armor engagements with accurate first shots.
+  tier: 2
+  cost: 1200
+  health: 1500
+  range: 29
+  speed: 6.5
+  strengths:
+  - Medium armor
+  - Defensive duels
+  weaknesses:
+  - Flanking swarms
+  - Artillery
+  prefab: {fileID: 7256400998497181496, guid: d4bd272eb730df442a684d6bf7fe8db4, type: 3}

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d88e76237cd2d7429f7b61b8d249e55, type: 3}
+  m_Name: Dynasty_AntiAir
+  m_EditorClassIdentifier: Assembly-CSharp::NeonFrontier.ArmyDefinition
+  id: Dynasty_AntiAir
+  displayName: Skyguard Missile Carrier
+  faction: Dynasty
+  category: Vehicle
+  role: Mobile anti-air missile screen
+  description: A radar-directed eight-cell missile platform accompanies the armored
+    front. Overlapping batteries shield heavy vehicles from aerial attacks.
+  tier: 2
+  cost: 850
+  health: 1050
+  range: 29
+  speed: 6
+  strengths:
+  - Aircraft
+  - Airborne drones
+  weaknesses:
+  - Heavy tanks
+  - Ground artillery
+  prefab: {fileID: 2642313144152114246, guid: 30691dfedc95bc44cb1215d1aeb96ece, type: 3}

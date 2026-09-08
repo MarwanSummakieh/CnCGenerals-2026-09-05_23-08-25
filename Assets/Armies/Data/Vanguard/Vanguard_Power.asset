@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d88e76237cd2d7429f7b61b8d249e55, type: 3}
+  m_Name: Vanguard_Power
+  m_EditorClassIdentifier: Assembly-CSharp::NeonFrontier.ArmyDefinition
+  id: Vanguard_Power
+  displayName: Helios Fusion Plant
+  faction: Vanguard
+  category: Structure
+  role: Power generation
+  description: A compact fusion core behind armored heat exchangers. The proposed
+    power network supports technology and defensive systems.
+  tier: 1
+  cost: 800
+  health: 1700
+  range: 0
+  speed: 0
+  strengths:
+  - Efficient base power
+  - Technology support
+  weaknesses:
+  - Raid vulnerability
+  - Power dependency
+  prefab: {fileID: 2748490223203577909, guid: bdb2ef33ba9d81d47ae2ece16f0b781b, type: 3}

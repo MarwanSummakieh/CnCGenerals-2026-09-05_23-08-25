@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d88e76237cd2d7429f7b61b8d249e55, type: 3}
+  m_Name: Vanguard_Worker
+  m_EditorClassIdentifier: Assembly-CSharp::NeonFrontier.ArmyDefinition
+  id: Vanguard_Worker
+  displayName: MULE Fabricator
+  faction: Vanguard
+  category: Vehicle
+  role: Construction / field logistics
+  description: An autonomous four-wheel construction rig. Deploys prefabricated modules
+    and restores allied machinery between engagements.
+  tier: 1
+  cost: 600
+  health: 450
+  range: 0
+  speed: 7
+  strengths:
+  - Builds infrastructure
+  - Repairs vehicles
+  weaknesses:
+  - No weapon
+  - Raiding scouts
+  prefab: {fileID: 3752320541126743527, guid: 5a4d3178b1ff28644b9d1e2cff54fd7a, type: 3}

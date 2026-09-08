@@ -1,0 +1,408 @@
+[
+  {
+    "name": "Vanguard_Command",
+    "vertices": 8748,
+    "triangles": 11872,
+    "dimensions_m": [
+      11.5,
+      10.0,
+      10.555
+    ],
+    "material_slots": 5,
+    "nontriangular_faces": 0,
+    "degenerate_faces": 0,
+    "anchors_blender_m": {},
+    "fbx_bytes": 291708
+  },
+  {
+    "name": "Vanguard_Power",
+    "vertices": 6460,
+    "triangles": 9840,
+    "dimensions_m": [
+      10.0,
+      9.0,
+      5.27
+    ],
+    "material_slots": 5,
+    "nontriangular_faces": 0,
+    "degenerate_faces": 0,
+    "anchors_blender_m": {},
+    "fbx_bytes": 248236
+  },
+  {
+    "name": "Vanguard_Refinery",
+    "vertices": 6560,
+    "triangles": 9588,
+    "dimensions_m": [
+      13.0,
+      11.0,
+      8.15
+    ],
+    "material_slots": 5,
+    "nontriangular_faces": 0,
+    "degenerate_faces": 0,
+    "anchors_blender_m": {},
+    "fbx_bytes": 251548
+  },
+  {
+    "name": "Vanguard_Barracks",
+    "vertices": 4796,
+    "triangles": 7152,
+    "dimensions_m": [
+      11.4,
+      12.0,
+      7.125
+    ],
+    "material_slots": 5,
+    "nontriangular_faces": 0,
+    "degenerate_faces": 0,
+    "anchors_blender_m": {
+      "ProductionExit": [
+        0.0,
+        -3.8,
+        0.62
+      ],
+      "ProductionLaneEnd": [
+        0.0,
+        -5.5,
+        0.62
+      ]
+    },
+    "fbx_bytes": 176988
+  },
+  {
+    "name": "Vanguard_Factory",
+    "vertices": 6848,
+    "triangles": 9724,
+    "dimensions_m": [
+      15.63,
+      18.0,
+      6.725
+    ],
+    "material_slots": 5,
+    "nontriangular_faces": 0,
+    "degenerate_faces": 0,
+    "anchors_blender_m": {
+      "ProductionExit": [
+        0.0,
+        -3.1,
+        0.62
+      ],
+      "ProductionLaneEnd": [
+        0.0,
+        -8.4,
+        0.62
+      ]
+    },
+    "fbx_bytes": 238892
+  },
+  {
+    "name": "Vanguard_Airfield",
+    "vertices": 8388,
+    "triangles": 10612,
+    "dimensions_m": [
+      24.0,
+      34.0,
+      7.425
+    ],
+    "material_slots": 5,
+    "nontriangular_faces": 0,
+    "degenerate_faces": 0,
+    "anchors_blender_m": {
+      "AircraftPad0": [
+        5.0,
+        -10.5,
+        0.4
+      ],
+      "AircraftPad1": [
+        5.0,
+        -3.5,
+        0.4
+      ],
+      "AircraftPad2": [
+        5.0,
+        3.5,
+        0.4
+      ],
+      "AircraftPad3": [
+        5.0,
+        10.5,
+        0.4
+      ],
+      "AircraftRunwayStart": [
+        -5.5,
+        -14.5,
+        0.4
+      ],
+      "AircraftRunwayEnd": [
+        -5.5,
+        14.5,
+        0.4
+      ]
+    },
+    "fbx_bytes": 265980
+  },
+  {
+    "name": "Vanguard_Tech",
+    "vertices": 7072,
+    "triangles": 10012,
+    "dimensions_m": [
+      10.8,
+      10.0,
+      8.98
+    ],
+    "material_slots": 5,
+    "nontriangular_faces": 0,
+    "degenerate_faces": 0,
+    "anchors_blender_m": {},
+    "fbx_bytes": 254380
+  },
+  {
+    "name": "Vanguard_Turret",
+    "vertices": 3988,
+    "triangles": 5640,
+    "dimensions_m": [
+      7.4,
+      8.01,
+      5.125
+    ],
+    "material_slots": 5,
+    "nontriangular_faces": 0,
+    "degenerate_faces": 0,
+    "anchors_blender_m": {},
+    "fbx_bytes": 159852
+  },
+  {
+    "name": "Vanguard_AirDefense",
+    "vertices": 4084,
+    "triangles": 6368,
+    "dimensions_m": [
+      7.4,
+      8.065,
+      7.581
+    ],
+    "material_slots": 4,
+    "nontriangular_faces": 0,
+    "degenerate_faces": 0,
+    "anchors_blender_m": {},
+    "fbx_bytes": 172172
+  },
+  {
+    "name": "Vanguard_Superweapon",
+    "vertices": 8636,
+    "triangles": 12864,
+    "dimensions_m": [
+      13.0,
+      12.445,
+      9.9
+    ],
+    "material_slots": 5,
+    "nontriangular_faces": 0,
+    "degenerate_faces": 0,
+    "anchors_blender_m": {},
+    "fbx_bytes": 327004
+  },
+  {
+    "name": "Dynasty_Command",
+    "vertices": 8748,
+    "triangles": 11872,
+    "dimensions_m": [
+      11.5,
+      10.0,
+      10.555
+    ],
+    "material_slots": 5,
+    "nontriangular_faces": 0,
+    "degenerate_faces": 0,
+    "anchors_blender_m": {},
+    "fbx_bytes": 291708
+  },
+  {
+    "name": "Dynasty_Power",
+    "vertices": 6460,
+    "triangles": 9840,
+    "dimensions_m": [
+      10.0,
+      9.0,
+      5.27
+    ],
+    "material_slots": 5,
+    "nontriangular_faces": 0,
+    "degenerate_faces": 0,
+    "anchors_blender_m": {},
+    "fbx_bytes": 248220
+  },
+  {
+    "name": "Dynasty_Refinery",
+    "vertices": 6560,
+    "triangles": 9588,
+    "dimensions_m": [
+      13.0,
+      11.0,
+      8.15
+    ],
+    "material_slots": 5,
+    "nontriangular_faces": 0,
+    "degenerate_faces": 0,
+    "anchors_blender_m": {},
+    "fbx_bytes": 251532
+  },
+  {
+    "name": "Dynasty_Barracks",
+    "vertices": 4796,
+    "triangles": 7152,
+    "dimensions_m": [
+      11.4,
+      12.0,
+      7.125
+    ],
+    "material_slots": 5,
+    "nontriangular_faces": 0,
+    "degenerate_faces": 0,
+    "anchors_blender_m": {
+      "ProductionExit": [
+        0.0,
+        -3.8,
+        0.62
+      ],
+      "ProductionLaneEnd": [
+        0.0,
+        -5.5,
+        0.62
+      ]
+    },
+    "fbx_bytes": 176972
+  },
+  {
+    "name": "Dynasty_Factory",
+    "vertices": 6848,
+    "triangles": 9724,
+    "dimensions_m": [
+      15.63,
+      18.0,
+      6.725
+    ],
+    "material_slots": 5,
+    "nontriangular_faces": 0,
+    "degenerate_faces": 0,
+    "anchors_blender_m": {
+      "ProductionExit": [
+        0.0,
+        -3.1,
+        0.62
+      ],
+      "ProductionLaneEnd": [
+        0.0,
+        -8.4,
+        0.62
+      ]
+    },
+    "fbx_bytes": 238876
+  },
+  {
+    "name": "Dynasty_Airfield",
+    "vertices": 8388,
+    "triangles": 10612,
+    "dimensions_m": [
+      24.0,
+      34.0,
+      7.425
+    ],
+    "material_slots": 5,
+    "nontriangular_faces": 0,
+    "degenerate_faces": 0,
+    "anchors_blender_m": {
+      "AircraftPad0": [
+        5.0,
+        -10.5,
+        0.4
+      ],
+      "AircraftPad1": [
+        5.0,
+        -3.5,
+        0.4
+      ],
+      "AircraftPad2": [
+        5.0,
+        3.5,
+        0.4
+      ],
+      "AircraftPad3": [
+        5.0,
+        10.5,
+        0.4
+      ],
+      "AircraftRunwayStart": [
+        -5.5,
+        -14.5,
+        0.4
+      ],
+      "AircraftRunwayEnd": [
+        -5.5,
+        14.5,
+        0.4
+      ]
+    },
+    "fbx_bytes": 265996
+  },
+  {
+    "name": "Dynasty_Tech",
+    "vertices": 7072,
+    "triangles": 10012,
+    "dimensions_m": [
+      10.8,
+      10.0,
+      8.98
+    ],
+    "material_slots": 5,
+    "nontriangular_faces": 0,
+    "degenerate_faces": 0,
+    "anchors_blender_m": {},
+    "fbx_bytes": 254380
+  },
+  {
+    "name": "Dynasty_Turret",
+    "vertices": 3988,
+    "triangles": 5640,
+    "dimensions_m": [
+      7.4,
+      8.01,
+      5.125
+    ],
+    "material_slots": 5,
+    "nontriangular_faces": 0,
+    "degenerate_faces": 0,
+    "anchors_blender_m": {},
+    "fbx_bytes": 159836
+  },
+  {
+    "name": "Dynasty_AirDefense",
+    "vertices": 4084,
+    "triangles": 6368,
+    "dimensions_m": [
+      7.4,
+      8.065,
+      7.581
+    ],
+    "material_slots": 4,
+    "nontriangular_faces": 0,
+    "degenerate_faces": 0,
+    "anchors_blender_m": {},
+    "fbx_bytes": 172140
+  },
+  {
+    "name": "Dynasty_Superweapon",
+    "vertices": 8636,
+    "triangles": 12864,
+    "dimensions_m": [
+      13.0,
+      12.445,
+      9.9
+    ],
+    "material_slots": 5,
+    "nontriangular_faces": 0,
+    "degenerate_faces": 0,
+    "anchors_blender_m": {},
+    "fbx_bytes": 327020
+  }
+]

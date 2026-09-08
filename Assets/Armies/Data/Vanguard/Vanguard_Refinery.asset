@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d88e76237cd2d7429f7b61b8d249e55, type: 3}
+  m_Name: Vanguard_Refinery
+  m_EditorClassIdentifier: Assembly-CSharp::NeonFrontier.ArmyDefinition
+  id: Vanguard_Refinery
+  displayName: Quantum Supply Hub
+  faction: Vanguard
+  category: Structure
+  role: Resource collection / logistics
+  description: A cargo depot with automated receiving cranes and resource processors.
+    Creates a valuable point of interaction along supply routes.
+  tier: 1
+  cost: 1200
+  health: 2300
+  range: 0
+  speed: 0
+  strengths:
+  - Army income
+  - Supply logistics
+  weaknesses:
+  - Worker raids
+  - Exposed expansion sites
+  prefab: {fileID: 2891268608058690375, guid: 26b645e23306b614d9047c8be17407ca, type: 3}

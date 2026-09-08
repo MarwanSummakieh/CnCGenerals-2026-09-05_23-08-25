@@ -112,3 +112,19 @@ InitTestScene*.unity*
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+
+# Local editor settings, build tools and generator caches
+.idea/
+__pycache__/
+*.py[cod]
+/.tools/
+
+# Private visual references and superseded capture attempts stay local.
+/ArtSource/References/
+/ArtSource/Units/*Overview0001.png
+/Documentation/*Preview/
+/Documentation/ReferenceCaptureProbe/
+/Documentation/ReferenceD3D11/
+/Documentation/ReferenceFinal/
+/Documentation/ReferencePolished/
+/Documentation/ReferenceVerified/

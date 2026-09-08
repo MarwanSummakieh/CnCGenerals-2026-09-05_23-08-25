@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d88e76237cd2d7429f7b61b8d249e55, type: 3}
+  m_Name: Dynasty_Worker
+  m_EditorClassIdentifier: Assembly-CSharp::NeonFrontier.ArmyDefinition
+  id: Dynasty_Worker
+  displayName: Ox Foundry Crawler
+  faction: Dynasty
+  category: Vehicle
+  role: Construction / salvage logistics
+  description: A rugged tracked fabrication crawler with articulated tools. Establishes
+    heavy industry and keeps the production network expanding.
+  tier: 1
+  cost: 500
+  health: 650
+  range: 0
+  speed: 5.5
+  strengths:
+  - Durable construction
+  - Field repairs
+  weaknesses:
+  - No weapon
+  - Air harassment
+  prefab: {fileID: 2526109498389984556, guid: 35af9b3b9e028444d9406b6773dfe2b6, type: 3}
